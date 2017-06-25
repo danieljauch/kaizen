@@ -1,18 +1,18 @@
 'use strict';
 
-var gulp            = require('gulp'),
-    browserSync     = require('browser-sync'),
-    sass            = require('gulp-sass'),
-    compass         = require('gulp-compass'),
-    minifyCSS       = require('gulp-minify-css'),
-    prefix          = require('gulp-autoprefixer'),
-    cp              = require('child_process'),
-    uglify          = require('gulp-uglify'),
-    plumber         = require('gulp-plumber'),
-    gzip            = require('gulp-gzip');
+const gulp = require('gulp'),
+  browserSync = require('browser-sync'),
+  sass = require('gulp-sass'),
+  compass = require('gulp-compass'),
+  cleanCss = require('gulp-clean-css'),
+  prefix = require('gulp-autoprefixer'),
+  cp = require('child_process'),
+  uglify = require('gulp-uglify'),
+  plumber = require('gulp-plumber'),
+  gzip = require('gulp-gzip');
 
-var messages = {
-    jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
+let messages = {
+  jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
 };
 
 /**
@@ -52,7 +52,7 @@ gulp.task('sass-deploy', function () {
         .pipe(sass({
             includePaths: ['assets/css'],
         }))
-   .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
+   .pipe(prefix(['last 15 versions', '> 1%', 'ie 11'], { cascade: true }))
    .pipe(sass({outputStyle: 'compressed'}))
    .pipe(gulp.dest('assets/css'))
    .pipe(gulp.dest('_site/assets/css'));
@@ -80,9 +80,8 @@ gulp.task('compass', function() {
       sourceMap: false,
       require: ['breakpoint','singularitygs','toolkit']
     }))
-    //.pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
-    .pipe(prefix({browsers: ['last 2 version', 'safari 5', 'ie 7', 'ie 8', 'ie 9', 'opera 12.1', 'ios 6', 'android 4']}))
-    .pipe(minifyCSS())
+    .pipe(prefix({browsers: ['last 2 version', 'ie 11', 'opera 12.1', 'ios 6', 'android 4']}))
+    .pipe(cleanCss())
     .pipe(gulp.dest('assets/css'))
     .pipe(browserSync.reload({stream:true}))
     .pipe(gulp.dest('_site/assets/css'));

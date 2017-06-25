@@ -1,23 +1,18 @@
 ---
-layout: post
-title: "Contact"
+layout: page
+title: Contact
+subtitle: ''
 permalink: /contact/
 ---
 
 ## Our Number:
 
-**970-587-4464**
+**[(970-555-1234)](tel:+19705551234)**
 
 ## Give Us A Comment:
 
 {% include contact-form.html %}
 
-{% include station.html %}
+## Our Emails:
 
-## Our Chiefs:
-
-**Ron Bateman**- Fire Chief [(rbateman@frfr.co)](mailto:rbateman@frfr.co)
-
-**Bernie Covillo**- Operations Chief [(bcovillo@frfr.co)](mailto:bcovillo@frfr.co)
-
-**Jesse Molinar**- Fire Marshal [(jmolinar@frfr.co)](mailto:jmolinar@frfr.co)
+**Philip Jauch**- Some Guy [(sensei.jauch@gmail.com)](mailto:sensei.jauch@gmail.com)
