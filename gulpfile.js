@@ -78,7 +78,7 @@ gulp.task('compass', function() {
       sass: 'assets/sass',
       image: 'assets/images',
       sourceMap: false,
-      require: ['breakpoint','singularitygs','toolkit']
+      require: ['breakpoint','toolkit']
     }))
     .pipe(prefix({browsers: ['last 2 version', 'ie 11', 'opera 12.1', 'ios 6', 'android 4']}))
     .pipe(cleanCss())
