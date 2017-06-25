@@ -8,19 +8,3 @@ description: ''
   <h1>{{ page.title }}</h1>
   <h4 class="subtitle">{{ page.subtitle }}</h4>
 </header>
-<div class="front-block">
-  <div class="left-col">{% include news.html %}</div>
-  <div class="right-col">{% include events.html %}</div>
-</div>
-<div class="grid front-block">
-  <h2>Gallery</h2>
-  {% for item in site.gallery limit:5 %}
-    <div class="grid-item">
-      <img class="gallery-item" src="{{ item.images.first.small_image_path }}" alt="{{ item.title }}">
-    </div>
-  {% endfor %}
-  <div><a class="view-more" href="/gallery/">View full gallery</a></div>
-</div>
-<div class="front-bottom">
-  <div class="social">{% include social.html %}</div>
-</div>

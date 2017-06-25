@@ -1,6 +1,6 @@
 'use strict';
 
-const gulp = require('gulp'),
+var gulp = require('gulp'),
   browserSync = require('browser-sync'),
   sass = require('gulp-sass'),
   compass = require('gulp-compass'),
@@ -11,7 +11,7 @@ const gulp = require('gulp'),
   plumber = require('gulp-plumber'),
   gzip = require('gulp-gzip');
 
-let messages = {
+var messages = {
   jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
 };
 
