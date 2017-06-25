@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<!--[if lte IE 8]><html class="no-js lte-ie8" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" lang="en"><!--<![endif]-->
+  {% include head.html %}
+  <body>
+  {% include browserupgrade.html %}
+
+  <div class="site-wrap">
+    {% include header.html %}
+    {{ content }}
+    {% include footer.html %}
+  </div>
+
+  {% include scripts.html %}
+  </body>
+</html>

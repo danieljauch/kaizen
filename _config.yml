@@ -1,0 +1,56 @@
+# Site settings
+title: Kaizen IBBA
+email: staff.ftc.ibba@gmail.com
+description:
+baseurl: "/" # the subpath of your site, e.g. /blog/
+url: "http://kaizenibba.com" # the base hostname & protocol for your site
+timezone: America/Denver
+
+# Site Author(s)
+author:
+  name: Daniel Jauch
+  email: daniel.p.jauch@gmail.com
+
+# Build settings
+highlighter: pygments
+markdown: kramdown
+kramdown:
+  auto_ids: true
+  toc_levels: 1..6
+
+# Permalinks
+
+# Include Sub Pages
+include: ['_pages']
+
+# Blog Settings
+paginate: 10
+paginate_path: "/news/page:num/"
+
+# Collections
+collections:
+  events:
+    output: true
+    permalink: /events/:title/
+  gallery:
+    output: true
+    permalink: /gallery/:title/
+defaults:
+  - scope:
+      type: "events"
+    values:
+      layout: "event"
+  - scope:
+      type: "news"
+    values:
+      layout: "post"
+
+# Social Media
+facebook: "https://www.facebook.com/frontrangefirerescue"
+# instagram: ""
+# youtube: ""
+
+# Google Analytics
+# google_analytics_tracking_id: "UA-70299313-1"
+
+exclude: ["vendor","node_modules","package.json","Gemfile","gulpfile.js","*.scss"]

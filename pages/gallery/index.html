@@ -1,0 +1,18 @@
+---
+layout: clean
+permalink: /gallery/
+title: "Gallery"
+---
+
+<section class="clearfix">
+  <ul class="grid">
+    {% for item in site.gallery %}
+		<a class="gallery-group" href="{{ item.permalink }}">
+			<li itemscope class="grid-item">
+				<h5 class="gallery-group-name">{{ item.title }}</h5>
+				<img class="gallery-item lrg" src="{{ item.images.first.small_image_path }}" alt="{{ item.title }}" itemprop="image">
+			</li>
+		</a>
+    {% endfor %}
+  </ul>
+</section>

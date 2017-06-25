@@ -1,0 +1,28 @@
+---
+layout: front
+title: "The Front Range Fire Rescue"
+subtitle: "The Front Range Fire Rescue is a Northern Colorado combination fire authority comprised of the Johnstown and Milliken Fire Protection Districts."
+description: ""
+---
+<header class="front-header">
+  <h1>{{ page.title }}</h1>
+  <h4 class="subtitle">{{ page.subtitle }}</h4>
+</header>
+<div class="front-block clearfix">
+  <div class="left-col">{% include news.html %}</div>
+  <div class="right-col">{% include events.html %}</div>
+</div>
+<div class="grid clearfix front-block">
+  <h2>Gallery</h2>
+  <!-- Needs randomizer -->
+  {% for item in site.gallery limit:5 %}
+    <div class="grid-item">
+      <img class="gallery-item" src="{{ item.images.first.small_image_path }}" alt="{{ item.title }}">
+    </div>
+  {% endfor %}
+  <div><a class="view-more" href="/gallery/">View full gallery</a></div>
+</div>
+<div class="clearfix front-bottom">
+  <div class="left-message">{% include chiefs-message.html %}</div>
+  <div class="right-soc">{% include social.html %}</div>
+</div>
