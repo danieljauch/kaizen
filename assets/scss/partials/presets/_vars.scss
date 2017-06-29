@@ -1,9 +1,27 @@
+// base colors
 $black: #000;
 $white: #fff;
+$blue: #0072c6;
 
+// color palate
 $red: #940101;
-$light-red: #eb1c23;
-$orange: #f24900;
-$yellow: #ffe114;
-$green: #176c09;
-$blue: #09346c;
+$orange: #f66000;
+
+// area styles
+$body-bg: $black linear-gradient(transparent, $black, darken($red, 15%));
+
+// timing functions
+$cubic: cubic-bezier(.5, .08, .24, 1);
+
+// breakpoints
+$phone: 20em; /* 320/16 */
+$tablet: 48em; /* 768/16 */
+$desktop: 75em; /* 1200/16 */
+
+// shadows
+$def-shadow: 0 .125rem 1rem rgba($black, .5);
+$hover-shadow: 0 .5rem 1rem rgba($black, .75);
+$dark-shadow: 0 0 2rem $black;
+$light-shadow: 0 0 1rem rgba($black, .5);
+$text-shadow-dark: 1px 1px 2px $black;
+$text-shadow-light: 1px .125rem .25rem rgba($black, .5);

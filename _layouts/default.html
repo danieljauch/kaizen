@@ -4,12 +4,10 @@
   {% include head.html %}
   <body>
   {% include browserupgrade.html %}
-
-  <div class="site-wrap">
-    {% include header.html %}
-    {{ content }}
-    {% include footer.html %}
-  </div>
+  
+  {% include header.html %}
+  <div class="site-wrap">{{ content }}</div>
+  {% include footer.html %}
 
   {% include scripts.html %}
   </body>

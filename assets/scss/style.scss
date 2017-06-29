@@ -1,0 +1,18 @@
+@import 'partials/presets/vars';
+@import 'partials/presets/mixins';
+@import 'partials/presets/keyframes';
+
+@import 'partials/global/settings';
+@import 'partials/global/input';
+@import 'partials/global/button';
+@import 'partials/global/img';
+@import 'partials/global/a';
+@import 'partials/global/h';
+@import 'partials/global/hr';
+
+@import 'partials/layout/header';
+@import 'partials/layout/main';
+@import 'partials/layout/footer';
+
+@import 'partials/page/tooltip';
+@import 'partials/page/front';

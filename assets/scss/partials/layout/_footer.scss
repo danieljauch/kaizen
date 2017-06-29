@@ -1,0 +1,25 @@
+.site-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem;
+  z-index: 5;
+  color: rgba($white, .5);
+  background: linear-gradient(transparent, transparent 25%, rgba($black, .5));
+  font-size: 1rem;
+  a {
+    color: rgba($white, .75);
+    &:hover {
+      color: $white;
+    }
+  }
+  @include breakpoint($tablet) {
+    .left {
+      display: inline-block;
+    }
+    .right {
+      float: right;
+    }
+  }
+}

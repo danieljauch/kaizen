@@ -1,0 +1,15 @@
+.site-wrap {
+  padding: 3rem 1rem;
+}
+main {
+  width: 90%;
+  max-width: 100rem;
+  min-height: calc(100vh - 3rem);
+  margin: 0 auto 2rem;
+  padding: 1em;
+  background: linear-gradient(to bottom right, $black, darken($red, 25%));
+  box-shadow: $dark-shadow;
+  &.front {
+    margin: 10rem auto 2rem;
+  }
+}

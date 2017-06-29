@@ -47,8 +47,8 @@ gulp.task('browser-sync', ['compass', 'jekyll-build'], function() {
  */
 
 
-gulp.task('sass-deploy', function () {
-    gulp.src('assets/css/**/*.scss')
+gulp.task('sass', function () {
+    gulp.src('assets/**/*.scss')
         .pipe(sass({
             includePaths: ['assets/css'],
         }))
@@ -63,20 +63,20 @@ gulp.task('sass-deploy', function () {
  * Watch html/md files, run jekyll & reload BrowserSync
  */
 gulp.task('watch', function () {
-    gulp.watch('assets/sass/**', ['compass']);
+    gulp.watch('assets/scss/**', ['compass']);
     gulp.watch('assets/js/dev/**.js', ['scripts']);
-    gulp.watch(['_config.yml', '_posts/**', '_events/**', '_gallery/**', 'news/**', 'pages/**', 'index.html', '_layouts/**.html', '_includes/**.html', '_data/**', 'all-events.json'], ['jekyll-rebuild']);
+    gulp.watch(['_config.yml', '_posts/**', '_events/**', '_gallery/**', 'pages/**', 'index.html', '_layouts/**.html', '_includes/**.html', '_data/**', 'all-events.json'], ['jekyll-rebuild']);
 });
 
 // Compile Compass/sass
 
 gulp.task('compass', function() {
-  gulp.src('assets/sass/**.scss')
+  gulp.src('assets/scss/**.scss')
     .pipe(plumber())
     .pipe(compass({
       css: 'assets/css',
-      sass: 'assets/sass',
-      image: 'assets/images',
+      sass: 'assets/scss',
+      image: 'assets/img',
       sourceMap: false,
       require: ['breakpoint','toolkit']
     }))
