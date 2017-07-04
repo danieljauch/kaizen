@@ -15,12 +15,12 @@
   order: 2
 - name: "Lee Urton"
   title: "Instructor"
-  bio: ""
+  bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil earum qui a quisquam ad sequi voluptas, assumenda officiis? Excepturi magnam sunt numquam. Fugiat inventore ratione eos possimus suscipit necessitatibus, quas?"
   image: "/assets/img/staff/Lee-Urton.jpg"
   order: 4
 - name: "Mike Klusman"
   title: "Instructor"
-  bio: ""
+  bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero id fugit sunt, eius eaque delectus eum ullam dolor suscipit, sapiente veniam magnam illo? Voluptatem et, ducimus commodi ut sit dignissimos."
   image: "/assets/img/staff/Mike-Klusman.jpg"
   order: 5
 - name: "Carissa Morris"
@@ -30,6 +30,6 @@
   order: 6
 - name: "Lauren Newman"
   title: "Administrative Assistant"
-  bio: ""
+  bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde temporibus, repellendus eveniet delectus dignissimos vel voluptas nobis perferendis aspernatur, molestiae id voluptatibus dicta quia ipsa tempora eligendi enim, veniam asperiores!"
   image: "/assets/img/staff/Lauren-Newman.jpg"
   order: 7

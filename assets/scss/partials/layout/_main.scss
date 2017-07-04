@@ -9,7 +9,10 @@ main {
   background: linear-gradient(to bottom right, lighten($black, 5%), darken($red, 25%));
   box-shadow: 0 0 2rem $black;
   &.front {
-    margin: 20rem auto 2rem;
+    margin: 2rem auto;
+    @include breakpoint($tablet) {
+      margin: 20rem auto 2rem;
+    }
   }
   @include breakpoint($desktop-large) {
     max-width: 100rem;

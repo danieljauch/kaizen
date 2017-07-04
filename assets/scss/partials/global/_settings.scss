@@ -11,7 +11,7 @@ body {
   background: {
     image: url('../img/bg.jpg'), linear-gradient(transparent, $black, darken($red, 15%));
     color: $black;
-    size: contain;
+    size: 100% auto;
     repeat: no-repeat;
   }
   overflow-x: hidden;

@@ -1,0 +1,15 @@
+.programs {
+  @include breakpoint($phone-large) {
+    display: flex;
+    flex-wrap: wrap;
+    .program {
+      margin: 1rem;
+      flex: 40% 1;
+    }
+  }
+  @include breakpoint($desktop) {
+    .program {
+      flex: 25% 1;
+    }
+  }
+}

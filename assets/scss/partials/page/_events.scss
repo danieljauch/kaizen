@@ -1,0 +1,10 @@
+.events {
+  @include breakpoint($phone-large) {
+    display: flex;
+    flex-wrap: wrap;
+    .calendar {
+      margin: 1rem;
+      flex: 40% 1;
+    }
+  }
+}

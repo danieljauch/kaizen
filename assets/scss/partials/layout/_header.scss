@@ -5,45 +5,49 @@
   width: 100%;
   padding: .5rem 2rem;
   z-index: 5;
-  background: rgba($black, .75);
+  background: rgba($black, .5);
   transition: {
     property: background;
     duration: .5s;
     timing-function: $cubic;
   }
-  &.down {
-    background: $red;
-    nav ul li a {
-      color: rgba($white, .8);
-      &:hover {
-        color: $white;
-      }
+  &.low {
+    background: rgba($black, .75);
+    .logo-section img {
+      max-height: 3.125rem;
+    }
+  }
+  .mobile-menu-toggle {
+    color: $red;
+    letter-spacing: .125rem;
+    font: {
+      family: 'Shojumaru', cursive;
+      size: 1.25rem;
+    }
+    @include breakpoint($tablet) {
+      display: none;
     }
   }
   .logo-section {
     float: left;
     img {
-      max-height: 100px;
+      max-height: 6.25rem;
       margin-bottom: -80px;
       filter: drop-shadow(0 0 .25rem $black);
+      transition: {
+        property: max-height;
+        duration: .5s;
+        timing-function: $cubic;
+      }
     }
   }
   nav {
-    float: right;
     text-align: right;
-    width: 85%;
-    text-shadow: 0.0625em 0.0625em 0.125em $black;
-    letter-spacing: .125rem;
-    color: $red;
-    font: {
-      family: 'Shojumaru', cursive;
-      size: 1rem;
-    }
     ul {
       @include pseudo-list;
       position: absolute;
       padding: 1rem;
-      top: 100vh;
+      top: -1000vh;
       right: 1rem;
       box-shadow: 0 .125rem 1rem rgba($black, .5);
       opacity: 0;
@@ -57,18 +61,27 @@
         text-align: right;
         a {
           color: $red;
-          cursor: pointer;
+          // text-shadow: 0.05rem 0.05rem rgba($white, .5),
+          //             0.0625em .125rem .25rem rgba($black, .5);
+          letter-spacing: .125rem;
+          font: {
+            family: 'Shojumaru', cursive;
+            size: 1rem;
+          }
           &:hover, &:focus {
             color: $white;
           }
         }
       }
       &.open {
-        top: 5rem;
+        background: rgba($black, .9);
+        top: 3rem;
         opacity: 1;
       }
     }
     @include breakpoint($tablet) {
+      float: right;
+      width: 70%;
       .mobile-menu-open {
         display: none;
       }
@@ -85,6 +98,9 @@
           padding-left: 1rem;
         }
       }
+    }
+    @include breakpoint($desktop) {
+      width: 80%;
     }
   }
 }
