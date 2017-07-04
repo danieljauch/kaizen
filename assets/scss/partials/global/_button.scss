@@ -3,7 +3,7 @@ button, .btn {
   color: rgba($white, .9);
   padding: .25rem .5rem .125rem .5rem;
   cursor: pointer;
-  text-shadow: $text-shadow-light;
+  text-shadow: 1px .125rem .25rem rgba($black, .5);
   border: {
     top: 0;
     left: 0;

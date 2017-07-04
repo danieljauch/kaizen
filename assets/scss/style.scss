@@ -9,10 +9,14 @@
 @import 'partials/global/a';
 @import 'partials/global/h';
 @import 'partials/global/hr';
+@import 'partials/global/figure';
+@import 'partials/global/tooltip';
 
 @import 'partials/layout/header';
 @import 'partials/layout/main';
 @import 'partials/layout/footer';
 
-@import 'partials/page/tooltip';
 @import 'partials/page/front';
+@import 'partials/page/page';
+@import 'partials/page/staff';
+@import 'partials/page/programs';

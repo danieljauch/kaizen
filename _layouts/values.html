@@ -1,0 +1,15 @@
+---
+layout: page
+---
+
+<article class="sub-header">{{ content }}</article>
+<section class="values page-content-area">
+  {% for item in site.data.values %}
+    <article class="value page-content-item">
+      <header class="value-header page-content-header">
+        <h4 class="value-title">{{ item.title }}</h4>
+      </header>
+      <p class="description">{{ item.description }}</p>
+    </article>
+  {% endfor %}
+</section>

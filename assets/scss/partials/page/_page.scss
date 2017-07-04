@@ -1,0 +1,43 @@
+.page-content-area {
+  margin-top: 1rem;
+  .page-content-item {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    &:nth-of-type(odd) {
+      background: linear-gradient(to bottom left, rgba($white, .1), rgba(lighten($red, 10%), .1));
+    }
+    &:nth-of-type(even) {
+      background: linear-gradient(to bottom right, rgba($white, .1), rgba(lighten($red, 10%), .1));
+    }
+    .page-content-header {
+      border-bottom: .25rem solid rgba($black, .75);
+      margin-bottom: .5rem;
+      h4 {
+        font-family: 'Shojumaru', cursive;
+        font-size: 1.2rem;
+        letter-spacing: .125rem;
+        color: $red;
+        text-shadow: 0.05rem 0.05rem $white;
+      }
+      h5 {
+        color: rgba($white, .75);
+        margin: .25rem 1rem;
+        text-shadow: 0.0625em 0.0625em $black;
+        font: {
+          style: italic;
+          size: 1.2rem;
+        }
+      }
+    }
+    @include breakpoint($tablet) {
+      h4 {
+        display: inline-block;
+        font-size: 1.5rem;
+      }
+      h5 {
+        float: right;
+        font-size: 1.5rem;
+      }
+    }
+  }
+}

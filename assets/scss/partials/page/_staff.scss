@@ -1,0 +1,62 @@
+.staff {
+  .staff-member {
+    .headshot {
+      float: left;
+      width: 30%;
+      margin: 0 1rem 1rem 0;
+      img {
+        max-height: 200px;
+        box-shadow: .125rem .25rem 1rem rgba($black, .5);
+        border: .25rem solid $red;
+        // clip-path: ellipse(50% 50% at 50% 50%);
+      }
+    }
+    figcaption {
+      .bio {
+        padding: 0 .5rem;
+      }
+    }
+    &:after {
+      content: '';
+      display: table;
+      clear: both;
+    }
+    @include breakpoint($phone-large) {
+      display: flex;
+      .headshot {
+        float: none;
+        width: auto;
+        flex: 30% 2;
+      }
+      figcaption {
+        flex: 60% 3;
+      }
+      &:nth-of-type(odd) {
+        .headshot {
+          margin: 0 1rem 0 0;
+          order: 1;
+        }
+        figcaption {
+          order: 2;
+        }
+      }
+      &:nth-of-type(even) {
+        .headshot {
+          margin: 0 0 0 1rem;
+          order: 2;
+        }
+        figcaption {
+          order: 1;
+        }
+      }
+    }
+    @include breakpoint($tablet) {
+      .headshot {
+        flex: 20% 1;
+      }
+      figcaption {
+        flex: 70% 4;
+      }
+    }
+  }
+}

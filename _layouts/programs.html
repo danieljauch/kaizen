@@ -1,0 +1,16 @@
+---
+layout: page
+---
+
+<article class="sub-header">{{ content }}</article>
+<section class="programs page-content-area">
+  {% for item in site.data.programs %}
+    <article class="program page-content-item">
+      <header class="program-header page-content-header">
+        <h4 class="program-name">{{ item.name }}</h4>
+        <h5 class="age-range">{{ item.age }}</h5>
+      </header>
+      <p class="description">{{ item.description }}</p>
+    </article>
+  {% endfor %}
+</section>

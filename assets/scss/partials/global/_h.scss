@@ -1,15 +1,22 @@
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
 h1, h2, h3 {
-  text-shadow: $text-shadow-light;
+  text-shadow: 0.05rem 0.05rem $white,
+              0.0625em .125rem .25rem rgba($black, .5);
   font-family: 'Shojumaru', cursive;
 	font-size: 16px;
   letter-spacing: .125rem;
 }
 h1 {
   color: $red;
-  // background: linear-gradient(to right, rgba($white, .25), transparent, transparent);
-  // margin: 0 -1rem;
-  // padding: .25rem 1rem;
-  // belt background image?
+  font-size: 1.5rem;
+}
+h2 {
+  font-size: 1.25rem;
+}
+h3 {
+  font-size: 1rem;
 }
 h4 {
   font-weight: 700;
@@ -21,12 +28,12 @@ h4 {
     letter-spacing: .25rem;
   }
   h1 {
-    font-size: 3rem;
-  }
-  h2 {
     font-size: 2.5rem;
   }
-  h3 {
+  h2 {
     font-size: 2.25rem;
+  }
+  h3 {
+    font-size: 2.125rem;
   }
 }

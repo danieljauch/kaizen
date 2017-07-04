@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: values
 title: Our Values
 subtitle: ''
 permalink: /values/

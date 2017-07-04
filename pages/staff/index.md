@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: staff
 title: Staff
 subtitle: ''
 permalink: /staff/

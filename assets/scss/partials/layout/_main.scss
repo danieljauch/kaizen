@@ -1,15 +1,17 @@
 .site-wrap {
-  padding: 3rem 1rem;
+  padding: 8rem 0 2rem;
 }
 main {
-  width: 90%;
-  max-width: 100rem;
-  min-height: calc(100vh - 3rem);
+  width: calc(100% - 2rem);
+  max-width: 80rem;
   margin: 0 auto 2rem;
   padding: 1em;
-  background: linear-gradient(to bottom right, $black, darken($red, 25%));
-  box-shadow: $dark-shadow;
+  background: linear-gradient(to bottom right, lighten($black, 5%), darken($red, 25%));
+  box-shadow: 0 0 2rem $black;
   &.front {
-    margin: 10rem auto 2rem;
+    margin: 20rem auto 2rem;
+  }
+  @include breakpoint($desktop-large) {
+    max-width: 100rem;
   }
 }

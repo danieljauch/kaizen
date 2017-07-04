@@ -1,5 +1,5 @@
 a {
-  color: darken($blue, 10%);
+  color: $orange;
   text-decoration: none;
   transition: {
     property: color;
@@ -7,9 +7,9 @@ a {
     timing-function: $cubic;
   }
   &:hover, &:focus {
-    color: darken($blue, 20%);
+    color: darken($orange, 10%);
   }
   &:visited {
-    color: darken($blue, 20%);
+    color: darken($orange, 5%);
   }
 }

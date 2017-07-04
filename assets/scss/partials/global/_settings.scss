@@ -3,9 +3,17 @@ body {
   width: 100%;
   min-height: 100vh;
   margin: 0;
-  font-family: 'Josefin Sans', arial, sans-serif;
-	font-size: 22px;
-  background: $body-bg;
+  font: {
+    family: 'Josefin Sans', arial, sans-serif;
+    size: 22px;
+    weight: 100;
+  }
+  background: {
+    image: url('../img/bg.jpg'), linear-gradient(transparent, $black, darken($red, 15%));
+    color: $black;
+    size: contain;
+    repeat: no-repeat;
+  }
   overflow-x: hidden;
 }
 * {
@@ -18,9 +26,13 @@ div, p {
   color: $white;
   overflow-wrap: break-word;
   word-wrap: break-word;
+  font-size: 1rem;
+  @include breakpoint($tablet) {
+    font-size: 1.25rem;
+  }
 }
-p, h1, h2, h3, h4, h5, h6 {
-  margin: 0;
+.content-area p {
+  margin: 0 0 .5rem;
 }
 ::-webkit-scrollbar {
   width: .5rem;
@@ -29,10 +41,10 @@ p, h1, h2, h3, h4, h5, h6 {
   display: none;
 }
 ::-webkit-scrollbar-track {
-  background: rgba($black, .1);
+  background: rgba($white, .1);
 }
 ::-webkit-scrollbar-thumb {
-  background: rgba($black, .4);
+  background: rgba($red, .4);
 }
 @include selection {
   color: $white;

@@ -1,0 +1,22 @@
+---
+layout: page
+---
+
+<article class="sub-header">{{ content }}</article>
+<section class="staff page-content-area">
+  {% assign staff = site.data.staff | sort: 'order' %}
+  {% for item in staff %}
+    <figure class="staff-member page-content-item">
+      <div class="headshot">
+        <img src="{{ item.image }}" alt="{{ item.name }}">
+      </div>
+      <figcaption>
+        <header class="staff-header page-content-header">
+          <h4 class="staff-name">{{ item.name }}</h4>
+          <h5 class="staff-title">{{ item.title }}</h5>
+        </header>
+        <p class="bio">{{ item.bio }}</p>
+      </figcaption>
+    </figure>
+  {% endfor %}
+</section>

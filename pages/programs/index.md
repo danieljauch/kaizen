@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: programs
 title: Programs
 subtitle: ''
 permalink: /programs/

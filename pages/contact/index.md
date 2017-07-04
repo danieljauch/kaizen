@@ -5,14 +5,14 @@ subtitle: ''
 permalink: /contact/
 ---
 
-## Our Number:
+**Our Number:**
 
-**[(970-555-1234)](tel:+19705551234)**
+[(970-555-1234)](tel:+19705551234)
 
-## Give Us A Comment:
+**Our Emails:**
+
+Philip Jauch - *Owner* [(sensei.jauch@gmail.com)](mailto:sensei.jauch@gmail.com)
+
+**Get in Touch:**
 
 {% include contact-form.html %}
-
-## Our Emails:
-
-**Philip Jauch**- Some Guy [(sensei.jauch@gmail.com)](mailto:sensei.jauch@gmail.com)
