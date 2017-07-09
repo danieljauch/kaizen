@@ -6,8 +6,8 @@
   url: /values/
 - text: Events
   url: /events/
-- text: Gallery
-  url: /gallery/
+# - text: Gallery
+#   url: /gallery/
 - text: Members
   url: /members/
 - text: Contact Us

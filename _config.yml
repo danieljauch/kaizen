@@ -29,22 +29,21 @@ include: ['_pages']
 
 # Collections
 collections:
-  events:
-    output: true
-    permalink: /events/:title/
   gallery:
     output: true
     permalink: /gallery/:title/
   staff:
     output: false
+    permalink: /staff/:title/
   values:
     output: false
-  menu:
-    output: false
+    permalink: /values/:title/
   programs:
     output: false
+    permalink: /programs/:title/
   lineage:
     output: false
+    permalink: /lineage/:title/
 defaults:
   - scope:
       type: "events"
