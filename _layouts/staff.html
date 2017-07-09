@@ -4,7 +4,7 @@ layout: page
 
 <article class="sub-header">{{ content }}</article>
 <section class="staff page-content-area">
-  {% assign staff = site.data.staff | sort: 'order' %}
+  {% assign staff = site.data.staff %}
   {% for item in staff %}
     <figure class="staff-member page-content-item">
       <div class="headshot">
