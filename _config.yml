@@ -35,6 +35,16 @@ collections:
   gallery:
     output: true
     permalink: /gallery/:title/
+  staff:
+    output: false
+  values:
+    output: false
+  menu:
+    output: false
+  programs:
+    output: false
+  lineage:
+    output: false
 defaults:
   - scope:
       type: "events"
