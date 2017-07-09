@@ -36,15 +36,15 @@ collections:
     output: true
     permalink: /gallery/:title/
   staff:
-    output: true
+    output: false
   values:
-    output: true
+    output: false
   menu:
-    output: true
+    output: false
   programs:
-    output: true
+    output: false
   lineage:
-    output: true
+    output: false
 defaults:
   - scope:
       type: "events"
