@@ -1,6 +1,6 @@
 ---
 title: Kickboxing
-age:
+age: 18+
 order: 5
 ---
 
