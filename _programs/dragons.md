@@ -1,7 +1,10 @@
 ---
-title: "Little Dragons"
-age: "3-5 yrs"
+title: Little Dragons
+age: 3-5 yrs
 order: 1
 ---
 
-Little Dragons is about learning how to breathe fire.
+
+Our Lil’ Dragons class is specifically designed to meet the developmental needs of our youngest students. In addition to building a solid foundation for martial arts training, this class has a strong focus on life skills such as patience, taking turns, self-control, following directions, how to make friends, coordination, mental focus, and confidence.
+
+Our amazing and patient group of instructors loves to work with children. They understand the various challenges kids this age face in trying to focus and their need to become more self-disciplined. Through our IBBA Karate for Kids program, we establish clear rules of proper behavior in class and we encourage the same good behavior at home and in school. At IBBA we have found that delicate balance of fun and clear structure that helps young students to succeed while loving to come to class. Our ultimate aim is to help our students learn not only excellent martial arts skills, but also to set and achieve goals, be well-behaved, and work hard in everything they do.
