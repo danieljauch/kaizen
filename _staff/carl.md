@@ -1,6 +1,6 @@
 ---
 title: Carl Bachenberg
-job_title: Instructor
+job_title: Operations Manager / Instructor
 image_path: /assets/img/staff/Carl.jpg
 order: 3
 ---
