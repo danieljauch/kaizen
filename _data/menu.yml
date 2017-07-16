@@ -8,6 +8,8 @@
   url: /events/
 # - text: Gallery
 #   url: /gallery/
+- text: FAQ's
+  url: /faq/
 - text: Members
   url: /members/
 - text: Contact Us

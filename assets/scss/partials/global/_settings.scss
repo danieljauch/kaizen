@@ -9,7 +9,8 @@ body {
     weight: 100;
   }
   background: {
-    image: url('../img/bg.jpg'), linear-gradient(transparent, $black, darken($red, 15%));
+    // image: linear-gradient(transparent, darken($red, 25%), darken($red, 15%));
+    image: linear-gradient(transparent, darken($red, 25%), darken($red, 15%)), url('../images/bg.png');
     color: $black;
     size: 100% auto;
     repeat: no-repeat;
