@@ -1,4 +1,6 @@
 ---
-title: "High Quality Black Belts"
+title: High Quality Martial Arts Education
 order: 2
 ---
+
+
