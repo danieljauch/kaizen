@@ -1,6 +1,6 @@
 'use strict';
 
-var gulp = require('gulp'),
+const gulp = require('gulp'),
   browserSync = require('browser-sync'),
   sass = require('gulp-sass'),
   compass = require('gulp-compass'),
@@ -9,100 +9,67 @@ var gulp = require('gulp'),
   cp = require('child_process'),
   uglify = require('gulp-uglify'),
   plumber = require('gulp-plumber'),
-  gzip = require('gulp-gzip');
+  messages = {jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'};
 
-var messages = {
-  jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
-};
-
-/**
- * Build the Jekyll Site
- */
-gulp.task('jekyll-build', function (done) {
-    browserSync.notify(messages.jekyllBuild);
-    return cp.spawn('jekyll', ['build'], {stdio: 'inherit'})
-             .on('close', done);
+/* Build the Jekyll Site */
+gulp.task('jekyll-build', done => {
+  browserSync.notify(messages.jekyllBuild);
+  return cp.spawn('jekyll', ['build'], {stdio: 'inherit'})
+    .on('close', done);
 });
 
-/**
- * Rebuild Jekyll & do page reload
- */
-gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
-    browserSync.reload();
+/* Rebuild Jekyll & do page reload */
+gulp.task('jekyll-rebuild', ['jekyll-build'], () => {
+  browserSync.reload();
 });
 
-/**
- * Wait for jekyll-build, then launch the Server
- */
-gulp.task('browser-sync', ['compass', 'jekyll-build'], function() {
-    browserSync({
-        server: {
-            baseDir: '_site'
-        }
-    });
+/* Wait for jekyll-build, then launch the Server */
+gulp.task('browser-sync', ['compass', 'jekyll-build'], () => {
+  browserSync({
+    server: {
+      baseDir: '_site'
+    }
+  });
 });
 
-/**
- * Compile files from assets/css into both _site/assets/css (for live injecting) and site (for future jekyll builds)
- */
-
-
-gulp.task('sass', function () {
-    gulp.src('assets/**/*.scss')
-        .pipe(sass({
-            includePaths: ['assets/css'],
-        }))
-   .pipe(prefix(['last 15 versions', '> 1%', 'ie 11'], { cascade: true }))
-   .pipe(sass({outputStyle: 'compressed'}))
-   .pipe(gulp.dest('assets/css'))
-   .pipe(gulp.dest('_site/assets/css'));
-});
-
-/**
- * Watch scss files for changes & recompile
- * Watch html/md files, run jekyll & reload BrowserSync
- */
-gulp.task('watch', function () {
-    gulp.watch('assets/scss/**', ['compass']);
-    gulp.watch('assets/js/dev/**.js', ['scripts']);
-    gulp.watch(['_config.yml', '_posts/**', '_events/**', '_gallery/**', 'pages/**', 'index.html', '_layouts/**.html', '_includes/**.html', '_data/**', 'all-events.json'], ['jekyll-rebuild']);
-});
-
-// Compile Compass/sass
-
-gulp.task('compass', function() {
-  gulp.src('assets/scss/**.scss')
-    .pipe(plumber())
+/* Compile Compass/sass */
+gulp.task('compass', () => {
+  gulp.src('assets/scss/**/*.scss')
     .pipe(compass({
       css: 'assets/css',
       sass: 'assets/scss',
-      image: 'assets/img',
+      image: 'assets/images',
       sourceMap: false,
       require: ['breakpoint','toolkit']
     }))
     .pipe(prefix({browsers: ['last 2 version', 'ie 11', 'opera 12.1', 'ios 6', 'android 4']}))
     .pipe(cleanCss())
-    .pipe(gulp.dest('assets/css'))
-    .pipe(browserSync.reload({stream:true}))
-    .pipe(gulp.dest('_site/assets/css'));
-});
-
-
-// JS Script Tasks
-
-gulp.task('scripts', function() {
-    gulp.src('assets/js/dev/**.js')
     .pipe(plumber())
-    .pipe(uglify())
-    //.pipe(gzip())
-    .pipe(gulp.dest('assets/js/prod/'))
-    .pipe(browserSync.reload({stream:true}))
-    .pipe(gulp.dest('_site/assets/js/prod/'));
+    .pipe(gulp.dest('assets/css'))
+    .pipe(gulp.dest('_site/assets/css'))
+    .pipe(browserSync.reload({stream:true}));
 });
 
+/* JS Script Tasks */
+gulp.task('scripts', () => {
+  gulp.src('assets/js/dev/**.js')
+  .pipe(uglify())
+  .pipe(plumber())
+  .pipe(gulp.dest('assets/js/prod/'))
+  .pipe(gulp.dest('_site/assets/js/prod/'))
+  .pipe(browserSync.reload({stream:true}));
+});
 
-/**
- * Default task, running just `gulp` will compile the sass,
+/* Watch scss files for changes & recompile
+ * Watch html/md files, run jekyll & reload BrowserSync
+ */
+gulp.task('watch', () => {
+    gulp.watch('assets/scss/**', ['compass']);
+    gulp.watch('assets/js/dev/**.js', ['scripts']);
+    gulp.watch(['_config.yml', '_data/**', '_events/**', '_faqs/**', '_gallery/**', '_includes/**.html', '_layouts/**.html', '_lineage/**', '_posts/**', '_programs/**', '_staff/**', '_values/**', 'pages/**', 'index.html'], ['jekyll-rebuild']);
+});
+
+/* Default task, running just `gulp` will compile the sass,
  * compile the jekyll site, launch BrowserSync & watch files.
  */
 gulp.task('default', ['browser-sync', 'watch']);

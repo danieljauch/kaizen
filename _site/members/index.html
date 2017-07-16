@@ -39,8 +39,7 @@
 <![endif]-->
 
 
-  <!-- <div class="bg-img"><img src="assets/images/bg.png" alt="Dojo"></div> -->
-<header class="site-header">
+  <header class="site-header">
   <div class="logo-section">
     <a href="/"><img class="site-logo" src="/assets/images/logo.png" alt="Kaizen IBBA"></a>
   </div>
@@ -88,7 +87,15 @@
   <header class="page-header">
     <h1>Members</h1>
   </header>
-  <section class="content-area"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem aperiam rem facere quo. Eos distinctio a ex voluptate quo dolore maiores, doloremque accusantium vero asperiores veniam nihil quam quod repellendus.</p>
+  <section class="content-area"><section class="login-area"><form action="" class="login-form">
+  <label for="pw">Enter your password:</label>
+  <input type="password" id="pw">
+  <button class="btn submit-btn">Sign In <i class="fa fa-sign-in" aria-hidden="true"></i></button>
+</form>
+</section>
+<div class="hide-not-logged-in">
+  <section class="staff page-content-area">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem aperiam rem facere quo. Eos distinctio a ex voluptate quo dolore maiores, doloremque accusantium vero asperiores veniam nihil quam quod repellendus.</p>
 
 <p>Consectetur incidunt earum voluptatibus eligendi, eos. Nobis nesciunt commodi laudantium ratione libero, odit, iusto sequi voluptate aut, ducimus repellat inventore? Commodi ab, minus adipisci iusto distinctio maiores saepe aliquid inventore.</p>
 
@@ -97,6 +104,48 @@
 <p>Natus, dolore iste a fuga, atque fugit sapiente accusamus, vitae nam illo nulla modi corporis dolorum veniam consequuntur officiis deserunt ab. Dolore placeat eveniet, et veritatis sapiente explicabo culpa ratione.</p>
 
 <p>Eum molestias quae, dolorem dolor eaque, in cupiditate corporis fugit labore earum corrupti numquam vero ex, at distinctio laborum, modi animi necessitatibus minima enim tenetur non commodi quasi. Doloremque, ex?</p>
+
+  </section>
+  <section class="staff page-content-area">
+    <article class="calendar page-content-item">
+  <header class="page-content-header"><h4>Dragons:</h4></header>
+  <iframe src="https://calendar.google.com/calendar/embed?src=07o098d5tcv59m9l2ma5bf8j5k%40group.calendar.google.com&ctz=America/Denver" style="border: 0" width="100%" height="400" frameborder="0" scrolling="no"></iframe>
+</article>
+<article class="calendar page-content-item">
+  <header class="page-content-header"><h4>Tigers and Eagles:</h4></header>
+  <iframe src="https://calendar.google.com/calendar/embed?src=1vh4hvcu0hlga9puojho716uhs%40group.calendar.google.com&ctz=America/Denver" style="border: 0" width="100%" height="400" frameborder="0" scrolling="no"></iframe>
+</article>
+<article class="calendar page-content-item">
+  <header class="page-content-header"><h4>Panthers:</h4></header>
+  <iframe src="https://calendar.google.com/calendar/embed?src=anfjb8gfaiunkhvfnlo1gh6fvg%40group.calendar.google.com&ctz=America/Denver" style="border: 0" width="100%" height="400" frameborder="0" scrolling="no"></iframe>
+</article>
+<article class="calendar page-content-item">
+  <header class="page-content-header"><h4>Jr. Black Belts:</h4></header>
+  <iframe src="https://calendar.google.com/calendar/embed?src=mr4714n9h1m6e9l3gt2jmgqob4%40group.calendar.google.com&ctz=America/Denver" style="border: 0" width="100%" height="400" frameborder="0" scrolling="no"></iframe>
+</article>
+<article class="calendar page-content-item">
+  <header class="page-content-header"><h4>Adults:</h4></header>
+  <iframe src="https://calendar.google.com/calendar/embed?src=lgl1idmm2hq93fasmvk0f545p4%40group.calendar.google.com&ctz=America/Denver" style="border: 0" width="100%" height="400" frameborder="0" scrolling="no"></iframe>
+</article>
+<article class="calendar page-content-item">
+  <header class="page-content-header"><h4>Provisionals:</h4></header>
+  <iframe src="https://calendar.google.com/calendar/embed?src=1oeas09dn1k2srihrskrp369a8%40group.calendar.google.com&ctz=America/Denver" style="border: 0" width="100%" height="400" frameborder="0" scrolling="no"></iframe>
+</article>
+<article class="calendar page-content-item">
+  <header class="page-content-header"><h4>Black Belts:</h4></header>
+  <iframe src="https://calendar.google.com/calendar/embed?src=1ni3bbr5froteumuouc5vuqg1k%40group.calendar.google.com&ctz=America/Denver" style="border: 0" width="100%" height="400" frameborder="0" scrolling="no"></iframe>
+</article>
+<article class="calendar page-content-item">
+  <header class="page-content-header"><h4>Masters:</h4></header>
+  <iframe src="https://calendar.google.com/calendar/embed?src=541lgc266fjvrakt3f9so892vk%40group.calendar.google.com&ctz=America/Denver" style="border: 0" width="100%" height="400" frameborder="0" scrolling="no"></iframe>
+</article>
+<article class="calendar page-content-item">
+  <header class="page-content-header"><h4>Kickboxing:</h4></header>
+  <iframe src="https://calendar.google.com/calendar/embed?src=pi1iud5faatk1puaorpnogfsl8%40group.calendar.google.com&ctz=America/Denver" style="border: 0" width="100%" height="400" frameborder="0" scrolling="no"></iframe>
+</article>
+
+  </section>
+</div>
 </section>
 </main>
 </div>
@@ -119,7 +168,16 @@
 <script src="/assets/js/prod/script.js"></script>
 <script src="/assets/js/prod/jquery.colorbox-min.js"></script>
 
-<!--  -->
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-102590261-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
 
   </body>
 </html>

@@ -2,7 +2,7 @@
 title: Kaizen IBBA
 email: staff.ftc.ibba@gmail.com
 description:
-baseurl: "/" # the subpath of your site, e.g. /blog/
+baseurl: "/" # the subpath of your site
 url: "http://kaizenibba.com" # the base hostname & protocol for your site
 timezone: America/Denver
 
@@ -35,6 +35,9 @@ collections:
   staff:
     output: false
     permalink: /staff/:title/
+  faqs:
+    output: false
+    permalink: /faq/:title/
   values:
     output: false
     permalink: /values/:title/
@@ -55,11 +58,11 @@ defaults:
       layout: "post"
 
 # Social Media
-facebook: "https://www.facebook.com/frontrangefirerescue"
+# facebook: "https://www.facebook.com/frontrangefirerescue"
 # instagram: ""
 # youtube: ""
 
 # Google Analytics
-# google_analytics_tracking_id: "UA-70299313-1"
+google_analytics_tracking_id: "UA-102590261-1"
 
 exclude: ["vendor","node_modules","package.json","Gemfile","gulpfile.js","*.scss"]

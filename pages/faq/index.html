@@ -1,0 +1,17 @@
+---
+layout: page
+title: "FAQ's"
+permalink: /faq/
+---
+
+<section class="staff page-content-area">
+  {% assign faq = site.faqs | sort: 'order' %}
+  {% for item in faq %}
+    <figure class="faq-question page-content-item">
+      <header class="faq-header page-content-header">
+        <h4 class="faq-q">{{ item.title }}</h4>
+      </header>
+      <p class="description faq-a">{{ item.content }}</p>
+    </figure>
+  {% endfor %}
+</section>

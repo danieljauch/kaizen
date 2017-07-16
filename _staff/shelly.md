@@ -1,7 +1,7 @@
 ---
 title: "Shelly Jauch"
 job_title: "Administrator"
-image_path: "/assets/img/staff/"
+image_path: "/assets/images/staff/"
 order: 2
 ---
 

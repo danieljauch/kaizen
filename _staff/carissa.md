@@ -1,7 +1,7 @@
 ---
 title: "Carissa Morris"
 job_title: ""
-image_path: "/assets/img/staff/Carissa-Morris.jpg"
+image_path: "/assets/images/staff/Carissa-Morris.jpg"
 order: 6
 ---
 

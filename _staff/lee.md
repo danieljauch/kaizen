@@ -1,7 +1,7 @@
 ---
 title: "Lee Urton"
 job_title: "Instructor"
-image_path: "/assets/img/staff/Lee-Urton.jpg"
+image_path: "/assets/images/staff/Lee-Urton.jpg"
 order: 4
 ---
 

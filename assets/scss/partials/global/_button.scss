@@ -12,7 +12,7 @@ button, .btn {
     radius: .25rem;
   }
   transition: {
-    property: color, border, background, transform;
+    property: color, border, background;
     duration: .5s;
     timing-function: $cubic;
   }
@@ -20,7 +20,6 @@ button, .btn {
     background: darken($red, 5%);
     color: $white;
     border-bottom: 2px solid rgba($black, .5);
-    transform: translateY(-2px);
   }
   &:active, &.active {
     background: $orange;

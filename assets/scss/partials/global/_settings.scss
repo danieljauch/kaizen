@@ -3,19 +3,18 @@ body {
   width: 100%;
   min-height: 100vh;
   margin: 0;
+  overflow-x: hidden;
   font: {
     family: 'Josefin Sans', arial, sans-serif;
     size: 22px;
     weight: 100;
   }
   background: {
-    // image: linear-gradient(transparent, darken($red, 25%), darken($red, 15%));
     image: linear-gradient(transparent, darken($red, 25%), darken($red, 15%)), url('../images/bg.png');
     color: $black;
     size: 100% auto;
     repeat: no-repeat;
   }
-  overflow-x: hidden;
 }
 * {
   box-sizing: border-box;

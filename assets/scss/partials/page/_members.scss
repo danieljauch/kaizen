@@ -1,0 +1,33 @@
+.login-area {
+  display: none;
+  form {
+    width: calc(100% - 2rem);
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: linear-gradient(to bottom left, rgba($white, .1), rgba(lighten($red, 10%), .1));
+    label {
+      font-weight: bold;
+    }
+    input {
+      margin: 1rem 0;
+      text-align: center;
+    }
+    &:after {
+      content: '';
+      clear: both;
+      display: table;
+    }
+  }
+}
+.hide-not-logged-in {
+  display: block;
+}
+.not-logged-in {
+  .login-area {
+    display: block;
+  }
+  .hide-not-logged-in {
+    display: none;
+  }
+}

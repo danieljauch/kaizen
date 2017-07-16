@@ -1,7 +1,7 @@
 ---
 title: "Mike Klusman"
 job_title: "Instructor"
-image_path: "/assets/img/staff/Mike-Klusman.jpg"
+image_path: "/assets/images/staff/Mike-Klusman.jpg"
 order: 5
 ---
 

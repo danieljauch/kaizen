@@ -18,8 +18,11 @@ textarea {
   }
   transition: {
     property: border;
-    duration: .5s;
+    duration: .2s;
     timing-function: $cubic;
+  }
+  &:hover {
+    border-bottom: 2px solid darken($orange, 15%);
   }
   &:focus {
     border-bottom: 2px solid $orange;
