@@ -5,4 +5,4 @@ permalink: /values/
 ---
 
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem aperiam rem facere quo. Eos distinctio a ex voluptate quo dolore maiores, doloremque accusantium vero asperiores veniam nihil quam quod repellendus.
+At IBBA, we believe that martial arts is about more than the forms you practice. The aim of practicing an art is to better yourself and give back to those around you.
