@@ -1,8 +1,14 @@
 ---
-layout: page
+layout: default
 ---
 
-<article class="page-content kickbox-page">
-  <img src="{{ page.image_path }}" alt="Kickbox NOW!">
-  <div class="content">{{ content }}</div>
-</article>
+<main>
+  <header class="page-header">
+    <h1>{{ page.title }}</h1>
+    <h4>{{ page.subtitle }}</h4>
+  </header>
+  <section class="content-area kickbox-page">
+    <img src="{{ page.image_path }}" alt="Kickbox NOW!">
+    <div class="content">{{ content }}</div>
+  </section>
+</main>

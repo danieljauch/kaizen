@@ -1,5 +1,4 @@
 ---
-layout: kickbox
 title: Kickbox NOW!
 permalink: /programs/kickbox/
 image_path: "/assets/images/kickbox_now.png"
