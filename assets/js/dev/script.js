@@ -1,6 +1,17 @@
 $(document).ready(function () {
   if (checkLogin()) $('body').removeClass('not-logged-in');
   checkScroll();
+  window.sr = ScrollReveal();
+  var revealSettings = {
+    origin: 'top',
+    distance: '2rem',
+    delay: 100,
+    duration: 500,
+    easing: 'cubic-bezier(.5, .08, .24, 1)',
+    scale: 1
+  };
+  sr.reveal('.front-flex-wrapper', revealSettings, 100);
+  sr.reveal('.page-content-item', revealSettings, 100);
   $('.mobile-menu-toggle').click(function () {
     $('.menu').toggleClass('open');
   });

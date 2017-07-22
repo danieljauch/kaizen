@@ -15,6 +15,9 @@
     background: rgba($black, .75);
     .logo-section img {
       max-height: 3.125rem;
+      @include breakpoint($tablet) {
+        max-height: 6rem;
+      }
     }
   }
   .mobile-menu-toggle {
@@ -38,6 +41,9 @@
         property: max-height;
         duration: .5s;
         timing-function: $cubic;
+      }
+      @include breakpoint($tablet) {
+        max-height: 8.5rem;
       }
     }
   }

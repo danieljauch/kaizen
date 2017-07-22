@@ -22,12 +22,10 @@
     
   
     
-  
-    
     <url>
-      <loc>http://kaizenibba.com/events/</loc>
+      <loc>http://kaizenibba.com/</loc>
       
-        <lastmod>2017-07-16T13:12:28-06:00</lastmod>
+        <lastmod>2017-07-22T12:10:34-06:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -42,7 +40,22 @@
     <url>
       <loc>http://kaizenibba.com/gallery/</loc>
       
-        <lastmod>2017-07-16T13:12:28-06:00</lastmod>
+        <lastmod>2017-07-22T12:10:34-06:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://kaizenibba.com/events/</loc>
+      
+        <lastmod>2017-07-22T12:10:34-06:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -57,22 +70,7 @@
     <url>
       <loc>http://kaizenibba.com/faq/</loc>
       
-        <lastmod>2017-07-16T13:12:28-06:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://kaizenibba.com/</loc>
-      
-        <lastmod>2017-07-16T13:12:28-06:00</lastmod>
+        <lastmod>2017-07-22T12:10:34-06:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -87,7 +85,7 @@
     <url>
       <loc>http://kaizenibba.com/contact/</loc>
       
-        <lastmod>2017-07-16T13:12:28-06:00</lastmod>
+        <lastmod>2017-07-22T12:10:34-06:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -102,7 +100,7 @@
     <url>
       <loc>http://kaizenibba.com/members/</loc>
       
-        <lastmod>2017-07-16T13:12:28-06:00</lastmod>
+        <lastmod>2017-07-22T12:10:34-06:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -117,7 +115,7 @@
     <url>
       <loc>http://kaizenibba.com/programs/</loc>
       
-        <lastmod>2017-07-16T13:12:28-06:00</lastmod>
+        <lastmod>2017-07-22T12:10:34-06:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -132,7 +130,7 @@
     <url>
       <loc>http://kaizenibba.com/staff/</loc>
       
-        <lastmod>2017-07-16T13:12:28-06:00</lastmod>
+        <lastmod>2017-07-22T12:10:34-06:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -147,7 +145,7 @@
     <url>
       <loc>http://kaizenibba.com/values/</loc>
       
-        <lastmod>2017-07-16T13:12:28-06:00</lastmod>
+        <lastmod>2017-07-22T12:10:34-06:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -162,7 +160,7 @@
     <url>
       <loc>http://kaizenibba.com/lineage/</loc>
       
-        <lastmod>2017-07-16T13:12:28-06:00</lastmod>
+        <lastmod>2017-07-22T12:10:34-06:00</lastmod>
       
       
         <changefreq>monthly</changefreq>

@@ -6,12 +6,26 @@ layout: page
 <section class="programs page-content-area">
   {% assign program = site.programs | sort: 'order' %}
   {% for item in program %}
-    <article class="program page-content-item">
-      <header class="program-header page-content-header">
-        <h4 class="program-name">{{ item.title }}</h4>
-        <h5 class="age-range">{{ item.age }}</h5>
-      </header>
-      <p class="description">{{ item.content }}</p>
-    </article>
+    {% if forloop.first %}
+      <div class="kickbox">
+        <a href="{{ item.permalink }}">
+          <article class="program page-content-item">
+            <header class="program-header page-content-header">
+              <h4 class="program-name">{{ item.title }}</h4>
+              <img src="{{ item.image_path }}" alt="{{ item.title }}">
+            </header>
+            <p class="description">{{ item.content }}</p>
+          </article>
+        </a>
+      </div>
+    {% else %}
+      <article class="program page-content-item">
+        <header class="program-header page-content-header">
+          <h4 class="program-name">{{ item.title }}</h4>
+          <h5 class="age-range">{{ item.age }}</h5>
+        </header>
+        <p class="description">{{ item.content }}</p>
+      </article>
+    {% endif %}
   {% endfor %}
 </section>

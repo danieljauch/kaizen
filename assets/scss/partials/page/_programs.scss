@@ -1,4 +1,16 @@
 .programs {
+  .kickbox {
+    img {
+      max-height: 5rem;
+      float: right;
+      filter: drop-shadow(0 0 .5rem $black);
+      margin: 5rem 1rem;
+      @include breakpoint($tablet) {
+        max-height: 10rem;
+        margin: -2rem -2rem .5rem 1rem;
+      }
+    }
+  }
   @include breakpoint($phone-large) {
     display: flex;
     flex-wrap: wrap;
@@ -7,9 +19,15 @@
       flex: 40% 1;
     }
   }
-  @include breakpoint($desktop) {
-    .program {
-      flex: 25% 1;
+}
+.kickbox-page {
+  img {
+    max-height: 5rem;
+    float: right;
+    filter: drop-shadow(0 0 .5rem $black);
+    @include breakpoint($tablet) {
+      max-height: 10rem;
+      margin: -2rem -2rem .5rem 1rem;
     }
   }
 }
