@@ -1,11 +1,11 @@
 .programs {
   .kickbox {
-    flex: 100% 10;
+    grid-area: kickbox;
     img {
       max-height: 5rem;
       float: right;
       filter: drop-shadow(0 0 .5rem $black);
-      margin: 5rem 1rem;
+      margin: .5rem 1rem;
       @include breakpoint($tablet) {
         max-height: 10rem;
         margin: -2rem -2rem .5rem 1rem;
@@ -13,11 +13,14 @@
     }
   }
   @include breakpoint($phone-large) {
-    display: flex;
-    flex-wrap: wrap;
-    .program {
-      margin: 1rem;
-      flex: 40% 1;
+    display: grid;
+    grid: {
+      template: {
+        columns: repeat(2, 1fr);
+        areas: "kickbox kickbox"
+      }
+      column-gap: 1rem;
+      row-gap: 1rem;
     }
   }
 }

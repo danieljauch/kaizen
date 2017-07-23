@@ -1,0 +1,8 @@
+{% assign navurl = page.url | remove: 'index.html' %}
+<ul class="submenu">
+  {% for item in include.nav %}
+    <li class="submenu-item">
+    	<a href="{{ item.url }}" class="menu-link{% if item.url == navurl %} active{% endif %}">{{ item.text }}</a>
+    </li>
+  {% endfor %}
+</ul>

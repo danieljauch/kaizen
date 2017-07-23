@@ -9,7 +9,4 @@ a {
   &:hover, &:focus {
     color: darken($orange, 10%);
   }
-  &:visited {
-    color: darken($orange, 5%);
-  }
 }

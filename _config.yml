@@ -47,15 +47,6 @@ collections:
   lineage:
     output: false
     permalink: /lineage/:title/
-defaults:
-  - scope:
-      type: "events"
-    values:
-      layout: "event"
-  - scope:
-      type: "news"
-    values:
-      layout: "post"
 
 # Social Media
 facebook: "https://www.facebook.com/ibba.fc/"

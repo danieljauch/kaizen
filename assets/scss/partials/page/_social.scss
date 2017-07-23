@@ -1,0 +1,7 @@
+.social-list {
+  @include inline-list;
+  margin-left: 1rem;
+  li {
+    margin: 0 .5rem .5rem 0;
+  }
+}

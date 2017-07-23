@@ -1,13 +1,17 @@
 - text: Programs
   url: /programs/
-- text: Staff
-  url: /staff/
-- text: Our Values
-  url: /values/
+- text: About Us
+  subitems:
+    - text: Our Values
+      url: /values/
+    - text: Staff
+      url: /staff/
+    - text: Lineage
+      url: /lineage/
 - text: Events
   url: /events/
-# - text: Gallery
-#   url: /gallery/
+- text: Gallery
+  url: /gallery/
 - text: FAQ's
   url: /faq/
 - text: Members

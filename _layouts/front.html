@@ -9,35 +9,21 @@ layout: default
   </header>
   <section class="content-area">{{ content }}</section>
   <section class="content-area">
-    <div class="front-flex-wrapper">
-      <a href="/programs/">
-        <article class="front-display-box">
-          <header>
-            <h2>Programs</h2>
-          </header>
-          <p class="editable">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus temporibus assumenda excepturi sequi repellat ad praesentium, repudiandae itaque deserunt quas blanditiis tenetur nostrum quaerat expedita mollitia, reprehenderit, odit nam reiciendis?</p>
-        </article>
-      </a>
-    </div>
-    <div class="front-flex-wrapper">
-      <a href="/events/">
-        <article class="front-display-box">
-          <header>
-            <h2>Events</h2>
-          </header>
-          <p class="editable">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus temporibus assumenda excepturi sequi repellat ad praesentium, repudiandae itaque deserunt quas blanditiis tenetur nostrum quaerat expedita mollitia, reprehenderit, odit nam reiciendis?</p>
-        </article>
-      </a>
-    </div>
-    <div class="front-flex-wrapper">
-      <a href="/gallery/">
-        <article class="front-display-box">
-          <header>
-            <h2>Gallery</h2>
-          </header>
-          <p class="editable">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus temporibus assumenda excepturi sequi repellat ad praesentium, repudiandae itaque deserunt quas blanditiis tenetur nostrum quaerat expedita mollitia, reprehenderit, odit nam reiciendis?</p>
-        </article>
-      </a>
-    </div>
+    {% for item in page.boxes %}
+      <div class="front-box-wrapper">
+        <a href="{{ item.permalink }}">
+          <article class="front-display-box">
+            <header>
+              <h2>{{ item.title }}</h2>
+            </header>
+            <figure>
+              <img src="{{ item.image_path }}" alt="{{ item.title }}">
+              <figcaption><p>{{ item.subtitle }}</p></figcaption>
+            </figure>
+          </article>
+        </a>
+      </div>
+    {% endfor %}
   </section>
+  <footer class="social">{% include social.html %}</footer>
 </main>
