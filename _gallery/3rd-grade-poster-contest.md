@@ -1,6 +1,6 @@
 ---
 layout: gallery
-title: 'Example Gallery'
+title: Example Gallery
 permalink: /gallery/milliken-third-graders/
 images:
   - title: 'Congratulations to KQA, winner of our travelling trophy!'
@@ -29,6 +29,7 @@ images:
     large_image_path: /assets/images/gallery/full/poster-contest-2015-060.jpg
 ---
 
+
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo vero deleniti cumque rerum dolorem consectetur, iusto, molestiae, sapiente, tenetur magni eaque optio nam impedit ex? Placeat quis, odio molestias itaque.
 
-Omnis dolores quidem odit, natus, minus a velit, fugiat labore laborum accusamus eligendi expedita officia deserunt. Perspiciatis, commodi facere velit repudiandae cum dolor, adipisci necessitatibus laudantium nulla voluptas quae, tempora.
+Omnis dolores quidem odit, natus, minus a velit, fugiat labore laborum accusamus eligendi expedita officia deserunt. Perspiciatis, commodi facere velit repudiandae cum dolor, adipisci necessitatibus laudantium nulla voluptas quae, tempora.![](/uploads/versions/12524211-1140152159335956-7008831177608079648-n---x----764-763x---.jpg)
