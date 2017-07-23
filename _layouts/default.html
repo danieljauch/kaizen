@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<!--[if lte IE 8]><html class="no-js lte-ie8" lang="en"><![endif]-->
-<!--[if gt IE 8]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<!--[if lte IE 10]><html class="no-js lte-ie10" lang="en"><![endif]-->
+<!--[if gt IE 10]><!--><html class="no-js" lang="en"><!--<![endif]-->
   {% include head.html %}
   <body class="not-logged-in">
-  {% include browserupgrade.html %}
+    {% include browserupgrade.html %}
 
-  {% include header.html %}
-  <div class="site-wrap">{{ content }}</div>
-  {% include footer.html %}
+    {% include header.html %}
+    <div class="site-wrap">{{ content }}</div>
+    {% include footer.html %}
 
-  {% include scripts.html %}
+    {% include scripts.html %}
   </body>
 </html>
