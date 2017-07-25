@@ -1,6 +1,6 @@
 ---
 title: What style do you teach?
-order: 1
+order: 2
 ---
 
 
