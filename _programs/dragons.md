@@ -1,6 +1,6 @@
 ---
 title: Little Dragons
-age: 3-5 yrs
+age: 3-6 yrs
 order: 2
 ---
 
