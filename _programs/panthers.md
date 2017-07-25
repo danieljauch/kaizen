@@ -1,6 +1,6 @@
 ---
 title: Panthers
-age: 8-13 yrs
+age: 8-14 yrs
 order: 4
 ---
 
