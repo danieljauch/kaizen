@@ -10,7 +10,7 @@ order: 1
 
 ***Kickboxing is rapidly growing in popularity as a workout style because it offers a total-body workout, improves skills that transfer to other activities, and is a solid stress reliever. If you’re looking for a satisfying way to work off stress and pent-up aggression while burning calories and getting in great shape, kickboxing might be just what you’re looking for! KickBox NOW involves full-body moves of kicking and punching with the resistance of a heavy bag combined with interval training that instructors will push you beyond (what you believe to be) your limits for a calorie-torching, muscle toning workout that you’ll enjoy so much, it won’t feel like “work”!***
 
-### <u>Fast Facts:</u>
+# Fast Facts:
 
 **Fat-shredding**: A 155-pound woman can blast through 372 calories in 30-minutes of kickboxing (not to mention the increase to your metabolic rate afterwards), resulting in some serious fat loss after several weeks of training.
 
