@@ -1,6 +1,6 @@
 ---
 title: How much does it cost?
-order: 5
+order: 6
 ---
 
 
