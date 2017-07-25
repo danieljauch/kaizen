@@ -1,6 +1,13 @@
 ---
-title: "James Muro"
-job_title: "Professor"
-image_path: "/assets/images/staff/Muro.png"
+title: James Muro
+job_title: Professor
+image_path: /assets/images/staff/Muro.png
 order: 2
 ---
+
+
+During the early part of the 60s I was lucky enough that my parents knew a lot of quality martial art teachers. One of the very first was Charlie Boy Kalani. Uncle David would take me to the club to work out on the nice makiwara Charlie had on the wall. Charlie also had a piece of telephone pole stuck in the floor with some motorcycle inner tubes tied around it. This was for training working on throws. Uncle David would have me doing strikes and kicks on this bad boy too. Charlie was an amazing teacher and athlete. He would walk across the dojo floor on his hands doing a couple of laps, then a number of push-ups like that – he was also a crack up. My parents really loved him… Later his partner came back from another stint in Viet Nam, Professor John Ah Chin Chow-Hoon. Eventually Charlie would retire from the military and sold the club to B. Baptiste. My parents knew this guy also back in Hawaii and my mother did not really want me training with him – we moved away anyway.
+
+Also at this time until the early 60s, I was being taught Kenpo Karate by my family members – the Cabagbag brothers, Uncle David (he was also my youngest sister’s god father) and Uncle Ronnie (Roland). Uncle David used to own a Chevy Corvair. From standing still he could jump to the top of the car, no problem. From three steps back takeoff he could jump over the top of the car to the other side. They really laid a good foundation for me and gave the advice on how to look for a good instructor later on in life.
+
+Later on I would return to the Monterey area and found out that Professor Chow-Hoon was teaching in the neighborhood. I went down to check out classes to see if I could get in. I did not take any chances with the paperwork, in case my parents did not get along with Sensei Chow-Hoon, so I filled out all the paperwork myself and did not show it to them. Some 7-8 months later after a local luau my parents brought a bunch of their friends over to our home to extend the party, and guess who came walking into our doorway? Professor Chow-Hoon! Right away my heart sunk and my throat tightened up. My mom called me over to meet him. “This is my good friend Johnny. His wife and I are like sisters. You can go and train with him.” I gave him a big hug. He grabbed me by the neck, pulled me over away from the noise and commotion and asked me who filled out all the paperwork for the class. I confessed that I did it and told him my reason for doing this. He understood, but I still had to go to his house to pull weeds the next weekend. That was the beginning of the most important relationship of my martial arts career.
