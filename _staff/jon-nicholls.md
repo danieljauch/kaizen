@@ -1,6 +1,8 @@
 ---
 title: Jon Nicholls
 job_title:
-image_path: /assets/images/staff/Carissa-Morris.jpg
+image_path:
 order: 6
 ---
+
+
