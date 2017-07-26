@@ -1,6 +1,6 @@
 ---
 title: Mike Klusman
-job_title: Volunteer Instructor
+job_title: Tier IV Volunteer Instructor
 image_path: /assets/images/staff/Mike-Klusman.jpg
 order: 7
 ---
