@@ -2,7 +2,7 @@
 title: Lauren Newman
 job_title: Administrative Assistant
 image_path: /assets/images/staff/Lauren-Newman.jpg
-order: 3
+order: 2
 ---
 
 
