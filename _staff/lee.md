@@ -1,8 +1,9 @@
 ---
-title: "Lee Urton"
-job_title: "Instructor"
-image_path: "/assets/images/staff/Lee-Urton.jpg"
+title: Lee Urton
+job_title: Senior Instructor
+image_path: /assets/images/staff/Lee-Urton.jpg
 order: 4
 ---
+
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
