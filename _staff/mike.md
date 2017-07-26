@@ -2,7 +2,7 @@
 title: Mike Klusman
 job_title: Volunteer Instructor
 image_path: /assets/images/staff/Mike-Klusman.jpg
-order: 5
+order: 7
 ---
 
 
