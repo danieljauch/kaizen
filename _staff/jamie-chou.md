@@ -1,6 +1,8 @@
 ---
 title: Jamie Chou
-job_title:
-image_path: /assets/images/staff/Carissa-Morris.jpg
+job_title: Tier I Volunteer Instructor
+image_path:
 order: 6
 ---
+
+
