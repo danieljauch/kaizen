@@ -2,7 +2,7 @@
 title: 'Philip & Shelly Jauch'
 job_title: Owners
 image_path: /assets/images/staff/
-order: 10
+order: 0
 ---
 
 
