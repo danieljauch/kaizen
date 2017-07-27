@@ -8,7 +8,7 @@ permalink: /contact/
 **Our Number:**
 {: .present-before-paste}
 
-Kaizen IBBA Main Office&nbsp;[(970-204-9977)](tel:+19702049977)
+Kaizen IBBA Main Office [(970-204-9977)](tel:+19702049977)
 {: .present-before-paste}
 
 **Our Emails:**

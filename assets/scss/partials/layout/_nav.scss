@@ -4,6 +4,7 @@ nav {
   .mobile-menu-toggle {
     color: $red;
     letter-spacing: .125rem;
+    text-shadow: 1px .125rem .5rem $black;
     font: {
       family: 'Shojumaru', cursive;
       size: 1.25rem;
@@ -59,8 +60,11 @@ nav {
       box-shadow: none;
       .menu-item {
         position: relative;
-        text-align: left;
         padding-left: 1rem;
+        text: {
+          align: left;
+          shadow: 1px .125rem .5rem $black;
+        }
         .pseudo-link {
           display: inherit !important;
         }
