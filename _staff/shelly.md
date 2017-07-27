@@ -1,7 +1,7 @@
 ---
 title: 'Philip & Shelly Jauch'
 job_title: Owners
-image_path: /assets/images/staff/
+image_path: /uploads/img-0023.png
 order: 0
 ---
 
