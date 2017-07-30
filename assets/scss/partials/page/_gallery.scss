@@ -1,0 +1,113 @@
+.gallery-list {
+  @include breakpoint($phone-large) {
+    display: grid;
+    grid: {
+      template-columns: repeat(2, 1fr);
+      template-rows: auto;
+      gap: 1rem;
+    }
+  }
+  @include breakpoint($tablet) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  @include breakpoint($desktop) {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .gallery-item {
+    background: rgba($red, .5);
+    position: relative;
+    overflow: hidden;
+    min-height: 10rem;
+    border-radius: 1rem 2rem;
+    box-shadow: .125rem .25rem .5rem $black;
+    img, figcaption {
+      position: absolute;
+      left: 0;
+      width: 100%;
+    }
+    img {
+      top: 0;
+      z-index: 2;
+      transition: {
+        property: top, left, transform, filter;
+        duration: .5s;
+        timing-function: $cubic;
+      }
+    }
+    figcaption {
+      bottom: 0;
+      z-index: 3;
+      padding: .5rem;
+      text-align: center;
+      background: rgba($white, .75);
+      font-weight: bold;
+      transition: {
+        property: background, padding, text-shadow;
+        duration: .25s;
+        timing-function: $cubic;
+      }
+      transition: {
+        property: bottom;
+        duration: .5s;
+        timing-function: $cubic;
+        delay: .25s;
+      }
+      p {
+        color: $red;
+        transition: {
+          property: color;
+          duration: .5s;
+          timing-function: $cubic;
+        }
+      }
+    }
+    &:hover {
+      img {
+        top: -.5rem;
+        left: -.5rem;
+        transform: scale(1.1);
+        filter: opacity(.5) blur(2px);
+      }
+      figcaption {
+        bottom: 3rem;
+        background: transparent;
+        padding: .5rem;
+        text-shadow: 1px .125rem .25rem $black;
+        p {
+          color: $white;
+        }
+      }
+    }
+  }
+  &.image-list {
+    .gallery-item {
+      figcaption {
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 3;
+        font-size: 3rem;
+        padding-top: 3.5rem;
+        text-align: center;
+        background: rgba($white, .25);
+        filter: opacity(0) blur(.125rem);
+        font-weight: bold;
+        transition: {
+          property: filter, transform;
+          duration: .25s;
+          timing-function: $cubic;
+        }
+        i {
+          font-size: 3rem;
+        }
+      }
+      &:hover {
+        figcaption {
+          filter: opacity(1) blur(0);
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+}

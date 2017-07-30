@@ -12,11 +12,15 @@ $(document).ready(function () {
   };
   sr.reveal('.front-flex-wrapper', revealSettings, 100);
   sr.reveal('.page-content-item', revealSettings, 100);
+  $('.image-list a').colorbox({});
   $('.mobile-menu-toggle').click(function () {
     $('.menu').toggleClass('open');
   });
   $(document).scroll(function () {
     checkScroll();
+  });
+  $('.accordion-toggle-btn').click(function () {
+    $(this).parents('.accordion').toggleClass('open');
   });
   $('.login-form .submit-btn').click(function (e) {
     e.preventDefault();

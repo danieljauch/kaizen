@@ -1,0 +1,50 @@
+.accordion {
+  background: rgba($red, .25);
+  margin-bottom: 1rem;
+  .accordion-header {
+    padding: .5rem 1rem;
+    h3 {
+      color: $red;
+      display: inline-block;
+      width: calc(100% - 3rem);
+    }
+    .accordion-toggle-btn {
+      width: 2.5rem;
+      text-align: center;
+    }
+  }
+  .accordion-container {
+    max-height: 0;
+    overflow: hidden;
+    filter: opacity(0);
+    transition: {
+      property: max-height, filter;
+      duration: .5s;
+      timing-function: $cubic;
+    }
+    p, div {
+      padding: 0 1rem;
+    }
+  }
+  &.open {
+    .accordion-container {
+      max-height: 300rem;
+      filter: opacity(1);
+    }
+  }
+  @include breakpoint($tablet) {
+    &.open {
+      .accordion-container {
+        max-height: 175rem;
+        &.calendar-accordion {
+          display: grid;
+          grid: {
+            template-columns: repeat(2, 1fr);
+            template-rows: auto;
+            column-gap: 1rem;
+          }
+        }
+      }
+    }
+  }
+}

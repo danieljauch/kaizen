@@ -2,12 +2,11 @@
 layout: default
 ---
 
-<div class="content-wrapper not-front">
-  <main class="wrap">
-      <header>
-        <h1>{{ page.title }}</h1>
-        <h3 class="subtitle">{{ page.subtitle }}</h3>
-      </header>
-      <section class="clearfix">{{ content }}</section>
-  </main>
-</div>
+<main>
+  <header class="page-header">
+    <h1>{{ page.title }}</h1>
+  </header>
+  <img src="{{ page.image_path }}" alt="{{ page.title }}" class="post-image">
+  <section class="content-area">{{ content }}</section>
+  {% include social.html %}
+</main>

@@ -29,4 +29,11 @@ button, .btn {
   &.submit-btn {
     float: right;
   }
+  &.disabled {
+    background: darken(desaturate($red, 25%), 10%);
+    color: rgba($white, .5);
+    &:focus, &:hover {
+      border-bottom: 2px solid transparent;
+    }
+  }
 }

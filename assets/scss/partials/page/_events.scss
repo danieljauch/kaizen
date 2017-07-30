@@ -1,10 +1,24 @@
-.events {
-  @include breakpoint($phone-large) {
-    display: flex;
-    flex-wrap: wrap;
-    .calendar {
-      margin: 1rem;
-      flex: 40% 1;
+.post-area {
+  background: rgba($red, .5);
+  padding: 1rem;
+  .post {
+
+  }
+  .pagination {
+    width: 100%;
+    display: inline-grid;
+    grid-template: {
+      columns: 2rem 1fr 2rem;
+      areas: "prev pages next";
+    }
+    .previous {
+      grid-area: prev;
+    }
+    .page-number {
+      grid-area: pages;
+    }
+    .next {
+      grid-area: next;
     }
   }
 }

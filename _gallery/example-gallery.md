@@ -1,10 +1,11 @@
 ---
 layout: gallery
 title: Example Gallery
-permalink: /gallery/example/
+spotlight_image_path: '/assets/images/gallery/Phil-Jauch.jpg'
+permalink: '/events/example-gallery/'
 images:
-  - title: 'Congratulations to KQA, winner of our travelling trophy!'
-    image_path: /assets/images/gallery/full/img_4787.jpg
+  - title: 'Phil'
+    image_path: '/assets/images/gallery/Phil-Jauch.jpg'
 ---
 
 

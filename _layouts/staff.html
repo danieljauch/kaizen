@@ -7,9 +7,11 @@ layout: page
   {% assign staff = site.staff | sort: 'order' %}
   {% for item in staff %}
     <figure class="staff-member page-content-item">
-      <div class="headshot">
-        <img src="{{ item.image_path }}" alt="{{ item.title }}">
-      </div>
+      {% if item.image_path %}
+        <div class="headshot">
+          <img src="{{ item.image_path }}" alt="{{ item.title }}">
+        </div>
+      {% endif %}
       <figcaption>
         <header class="staff-header page-content-header">
           <h4 class="staff-name">{{ item.title }}</h4>

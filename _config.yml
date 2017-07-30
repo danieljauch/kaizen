@@ -24,29 +24,28 @@ kramdown:
 include: ['_pages']
 
 # Blog Settings
-# paginate: 10
-# paginate_path: "/news/page:num/"
+# plugins: [jekyll-paginate]
+# paginate: 5
+# paginate_path: "/events/page:num/"
 
 # Collections
 collections:
+  staff:
+    output: false
+  faqs:
+    output: false
+  values:
+    output: false
+  programs:
+    output: false
+  lineage:
+    output: false
   gallery:
     output: true
     permalink: /gallery/:title/
-  staff:
-    output: false
-    permalink: /staff/:title/
-  faqs:
-    output: false
-    permalink: /faq/:title/
-  values:
-    output: false
-    permalink: /values/:title/
-  programs:
-    output: false
-    permalink: /programs/:title/
-  lineage:
-    output: false
-    permalink: /lineage/:title/
+  articles:
+    output: true
+    permalink: /events/:title/
 
 # Social Media
 facebook: "https://www.facebook.com/ibba.fc/"
