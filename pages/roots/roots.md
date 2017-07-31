@@ -1,6 +1,6 @@
 ---
 layout: roots
-title: Roots
+title: Our Roots
 permalink: /roots/
 ---
 
