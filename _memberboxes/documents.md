@@ -4,6 +4,10 @@ order: 1
 ---
 
 
-[S](/assets/pdf/Student-Docs/Student Manual 2.0.pdf)[tudent Manual 2.0](__notset__)
+Student Manual 2.0
 
-&nbsp;
+[10 Attributes of a Successful Kenpoist](/assets/pdf/Student-Docs/10 attributes of a successful Kenpoist.pdf)
+
+[New Student Guide](/assets/pdf/Student-Docs/New Student Guide.pdf)
+
+[Notebook Cover Page](/assets/pdf/Student-Docs/Notebook cover page.pdf)
