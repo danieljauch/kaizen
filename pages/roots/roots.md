@@ -4,4 +4,5 @@ title: Our Roots
 permalink: /roots/
 ---
 
-Hi, this is the lineage page.
+
+Here lie our roots. &nbsp;Each teacher on this page has provided our instructors and students with direction and expertise. &nbsp;We are indebted to each.
