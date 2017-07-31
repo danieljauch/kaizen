@@ -4,10 +4,10 @@
   subitems:
     - text: Our Values
       url: /values/
-    - text: Staff
+    - text: Our Staff
       url: /staff/
-    - text: Lineage
-      url: /lineage/
+    - text: Our Roots
+      url: /roots/
 - text: Events
   url: /events/
 - text: Gallery

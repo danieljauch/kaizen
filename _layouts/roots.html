@@ -4,8 +4,8 @@ layout: page
 
 <article class="sub-header">{{ content }}</article>
 <section class="staff page-content-area">
-  {% assign lineage = site.lineage | sort: 'order' %}
-  {% for item in lineage %}
+  {% assign roots = site.roots | sort: 'order' %}
+  {% for item in roots %}
     <figure class="staff-member page-content-item">
       <div class="headshot">
         <img src="{{ item.image_path }}" alt="{{ item.title }}">

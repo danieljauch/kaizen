@@ -20,7 +20,12 @@ $(document).ready(function () {
     checkScroll();
   });
   $('.accordion-toggle-btn').click(function () {
-    $(this).parents('.accordion').toggleClass('open');
+    if ($(this).parents('.accordion').hasClass('open')) {
+      $('.accordion').removeClass('open');
+    } else {
+      $('.accordion').removeClass('open');
+      $(this).parents('.accordion').addClass('open');
+    }
   });
   $('.login-form .submit-btn').click(function (e) {
     e.preventDefault();

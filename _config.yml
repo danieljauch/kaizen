@@ -38,7 +38,7 @@ collections:
     output: false
   programs:
     output: false
-  lineage:
+  roots:
     output: false
   gallery:
     output: true
