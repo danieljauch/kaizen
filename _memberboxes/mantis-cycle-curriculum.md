@@ -1,4 +1,6 @@
 ---
 title: Mantis Cycle Curriculum
-order: 6
+order: 9
 ---
+
+
