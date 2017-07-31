@@ -1,7 +1,7 @@
 ---
 title: Jamie Chou
 job_title: Intern Instructor
-image_path:
+image_path: /uploads/img-1415.png
 order: 8
 ---
 
