@@ -20,5 +20,5 @@ Main Office - *Staff* [(staff.ftc.ibba@gmail.com)](javascript:void(location.href
 Philip Jauch - *Owner* [(sensei.jauch@gmail.com)](javascript:void(location.href='mailto:'+String.fromCharCode(115,101,110,115,101,105,46,106,97,117,99,104,64,103,109,97,105,108,46,99,111,109)))
 {: .present-before-paste}
 
-**Get in Touch:**
+&nbsp;
 {: .present-before-paste}
