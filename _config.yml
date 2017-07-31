@@ -40,6 +40,8 @@ collections:
     output: false
   roots:
     output: false
+  memberboxes:
+    output: false
   gallery:
     output: true
     permalink: /gallery/:title/

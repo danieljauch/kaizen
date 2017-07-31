@@ -6,24 +6,18 @@ layout: page
 <div class="hide-not-logged-in">
   <section class="staff page-content-area">{{ content }}</section>
   <section class="staff page-content-area">
-    <article class="accordion">
-      <header class="accordion-header">
-        <h3>Curriculum</h3>
-        <i class="fa fa-chevron-down accordion-toggle-btn btn" aria-hidden="true"></i>
-      </header>
-      <div class="accordion-container information-accordion">
-        <p class="editable">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi eaque assumenda veritatis. Labore, quae iste molestias illo, possimus, modi eligendi dolor, unde doloribus natus blanditiis odit aut pariatur tempore quod.</p>
-      </div>
-    </article>
-    <article class="accordion">
-      <header class="accordion-header">
-        <h3>Documents</h3>
-        <i class="fa fa-chevron-down accordion-toggle-btn btn" aria-hidden="true"></i>
-      </header>
-      <div class="accordion-container document-accordion">
-        <p class="editable">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi eaque assumenda veritatis. Labore, quae iste molestias illo, possimus, modi eligendi dolor, unde doloribus natus blanditiis odit aut pariatur tempore quod.</p>
-      </div>
-    </article>
+    {% assign memberbox = site.memberboxes | sort: 'order' %}
+    {% for item in memberbox %}
+      <article class="accordion">
+        <header class="accordion-header">
+          <h3>{{ item.title }}</h3>
+          <i class="fa fa-chevron-down accordion-toggle-btn btn" aria-hidden="true"></i>
+        </header>
+        <div class="accordion-container information-accordion">
+          <p>{{ item.content }}</p>
+        </div>
+      </article>
+    {% endfor %}
     <article class="accordion">
       <header class="accordion-header">
         <h3>Schedules</h3>
