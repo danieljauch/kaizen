@@ -4,7 +4,7 @@ order: 1
 ---
 
 
-Student Manual 2.0
+[Student Manual 2.0](/assets/pdf/Student-Docs/Student Manual 2.0.pdf)
 
 [10 Attributes of a Successful Kenpoist](/assets/pdf/Student-Docs/10 attributes of a successful Kenpoist.pdf)
 
