@@ -1,6 +1,6 @@
 ---
 title: Student Docs
-order: 3
+order: 1
 ---
 
 
