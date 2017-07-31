@@ -1,5 +1,5 @@
 ---
-title: Lauren Newman
+title: Lauren Newman Lipp
 job_title: Administrative Assistant
 image_path: /assets/images/staff/Lauren-Newman.jpg
 order: 2
