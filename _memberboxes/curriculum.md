@@ -1,6 +1,6 @@
 ---
 title: Eagle Cycle Curriculum
-order: 1
+order: 3
 ---
 
 
