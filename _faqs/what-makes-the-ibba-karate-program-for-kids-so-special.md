@@ -4,7 +4,7 @@ order: 1
 ---
 
 
-* Faithfully serving Northern Colorado families for almost 30 years!
+* Faithfully serving Northern Colorado families for 32 years!
 * Large, fully safety-matted, state-of-the-art facilities
 * Theme-based curriculum and belt reward system
 * Convenient and flexible class schedule for busy families
