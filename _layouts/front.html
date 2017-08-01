@@ -16,13 +16,34 @@ layout: default
             <header>
               <h2>{{ item.title }}</h2>
             </header>
-            <figure>
-              <img src="{{ item.image_path }}" alt="{{ item.title }}">
-              <figcaption><p>{{ item.subtitle }}</p></figcaption>
-            </figure>
+            {% if item.image_path %}
+              <figure>
+                <img src="{{ item.image_path }}" alt="{{ item.title }}">
+                <figcaption><p class="subtitle">{{ item.subtitle }}</p></figcaption>
+              </figure>
+            {% else %}
+              <p class="subtitle">{{ item.subtitle }}</p>
+            {% endif %}
           </article>
         </a>
       </div>
+    {% endfor %}
+  </section>
+  <section class="events posts-area page-content-area">
+    {% for post in site.articles limit:2 %}
+      {% if post.published %}
+        <a href="{{ post.permalink }}">
+          <article class="post page-content-item">
+            <header class="post-header page-content-header">
+              <h4 class="post-title">{{ post.title }}</h4>
+            </header>
+            <p class="description post-description">{{ post.description }}</p>
+            {% if post.image_path %}
+              <img src="{{ post.image_path }}" alt="{{ post.title }}" class="post-image">
+            {% endif %}
+          </article>
+        </a>
+      {% endif %}
     {% endfor %}
   </section>
   {% include social.html %}
