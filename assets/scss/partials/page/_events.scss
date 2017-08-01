@@ -1,8 +1,8 @@
-.post-area {
-  background: rgba($red, .5);
-  padding: 1rem;
+.posts-area {
   .post {
-
+    img {
+      max-height: 25rem;
+    }
   }
   .pagination {
     width: 100%;

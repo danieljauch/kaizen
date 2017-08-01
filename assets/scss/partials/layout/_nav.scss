@@ -47,7 +47,7 @@ nav {
       filter: opacity(1);
     }
   }
-  @include breakpoint($tablet) {
+  @include breakpoint($desktop) {
     .mobile-menu-toggle {
       display: none;
     }

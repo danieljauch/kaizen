@@ -1,6 +1,12 @@
 .accordion {
   background: rgba($red, .25);
   margin-bottom: 1rem;
+  a {
+    color: rgba($white, .9);
+    &:hover {
+      color: $orange;
+    }
+  }
   .accordion-header {
     padding: .5rem 1rem;
     h3 {
