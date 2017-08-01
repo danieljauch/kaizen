@@ -29,6 +29,10 @@ layout: default
       </div>
     {% endfor %}
   </section>
+  <hr>
+  <header class="page-header">
+    <h2>Events:</h2>
+  </header>
   <section class="events posts-area page-content-area">
     {% for post in site.articles limit:2 %}
       {% if post.published %}
