@@ -1,17 +1,18 @@
 ---
 layout: gallery
 title: Kenpo Tiger Cycle 2017 Testing
-spotlight_image_path: /uploads/20479620-10212373158551508-9058981799831617876-n.jpg
+spotlight_image_path:
 permalink: /events/example-gallery/
 images:
-  - title: 2017 Summer Progressive Arnis Camp
-    image_path: /uploads/20479620-10212373158551508-9058981799831617876-n.jpg
   - title:
-    image_path: /uploads/20479724-10155429452633930-5701772065612476454-n.jpg
+    image_path:
   - title:
-    image_path: /uploads/20376207-10155429452728930-1602655780283010503-n.jpg
+    image_path:
   - title:
-    image_path: /uploads/16508326-10155429452648930-2650080710975430958-n.jpg
+    image_path:
   - title:
-    image_path: /uploads/20431315-10155427494078930-6541721209820261967-n.jpg
+    image_path:
 ---
+
+
+July 18, 2017
