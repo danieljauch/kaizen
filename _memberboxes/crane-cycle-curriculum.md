@@ -4,7 +4,7 @@ order: 6
 ---
 
 
-* Lil' Dragons
+* [Lil' Dragons](/assets/pdf/Crane-Curriculum/Crane Cycle - Lil' Dragon Curriculum 2017.pdf)
 * [Beginning Tigers](/assets/pdf/Crane-Curriculum/Crane-Cycle---Beginning-Tigers.pdf)
 * [Advanced Tigers](/assets/pdf/Crane-Curriculum/Crane-Cycle---Advanced-Tigers.pdf)
 * [Eagles](/assets/pdf/Crane-Curriculum/Crane-Cycle---Eagles.pdf)
