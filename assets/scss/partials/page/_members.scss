@@ -12,11 +12,31 @@
     input {
       margin: 1rem 0;
       text-align: center;
+      .nope {
+        animation: .5s nope;
+      }
     }
     &:after {
       content: '';
       clear: both;
       display: table;
+    }
+  }
+  .feedback {
+    max-height: 0;
+    filter: opacity(0);
+    overflow: hidden;
+    transition: {
+      property: filter, max-height;
+      duration: .5s;
+      timing-function: $cubic;
+    }
+    h4 {
+      color: $red;
+    }
+    &.open {
+      max-height: 12rem;
+      filter: opacity(1);
     }
   }
 }

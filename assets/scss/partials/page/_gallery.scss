@@ -23,7 +23,9 @@
     img, figcaption {
       position: absolute;
       left: 0;
-      width: 100%;
+      min-height: 10rem;
+      min-width: 100%;
+      object-fit: cover;
     }
     img {
       top: 0;

@@ -12,7 +12,9 @@ $(document).ready(function () {
   };
   sr.reveal('.front-flex-wrapper', revealSettings, 100);
   sr.reveal('.page-content-item', revealSettings, 100);
-  $('.image-list a').colorbox({});
+  $('.image-list a').colorbox({
+    maxWidth: '100%'
+  });
   $('.mobile-menu-toggle').click(function () {
     $('.menu').toggleClass('open');
   });
@@ -54,5 +56,11 @@ function submitLogin() {
   if ($('#pw').val() == "Kibba") {
     document.cookie = "username=true; path=/";
     if (checkLogin()) $('body').removeClass('not-logged-in');
+  } else {
+    $('.login-form .feedback').addClass('open');
+    $('.login-form input').addClass('nope');
+    setTimeout(function () {
+      $('.login-form input').removeClass('nope');
+    }, 500);
   }
 }
