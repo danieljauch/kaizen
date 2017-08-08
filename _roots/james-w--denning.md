@@ -2,7 +2,7 @@
 title: James W. Denning
 job_title: Renshi
 image_path: /uploads/sensei-james-instructor.jpg
-order: 4
+order: 5
 ---
 
 
