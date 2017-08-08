@@ -1,8 +1,10 @@
 ---
 layout: post
-title: Black Belt Testing Aug 2017
+title: Black Belt Testing August 2017
 description:
-image_path: /uploads/crazy-hair-day-event.PNG
+image_path: /uploads/bb-test-aug-2017.PNG
 permalink: /events/example-event/
 published: true
 ---
+
+
