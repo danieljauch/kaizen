@@ -2,7 +2,7 @@
 layout: gallery
 title: Kenpo Tiger Cycle 2017 Testing
 spotlight_image_path: /uploads/sensei-nicholls-punch-1.jpg
-permalink: /events/example-gallery/
+permalink: /events/kenpo-tiger-cycle-testing-2017/
 images:
   - title:
     image_path: /uploads/bo-staff-mele.jpg

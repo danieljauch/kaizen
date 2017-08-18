@@ -8,13 +8,13 @@
       url: /staff/
     - text: Our Roots
       url: /roots/
+    - text: FAQ's
+      url: /faq/
+    - text: Contact Us
+      url: /contact/
 - text: Events
   url: /events/
 - text: Gallery
   url: /gallery/
-- text: FAQ's
-  url: /faq/
 - text: Members
   url: /members/
-- text: Contact Us
-  url: /contact/

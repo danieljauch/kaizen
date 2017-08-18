@@ -18,18 +18,19 @@
     position: relative;
     overflow: hidden;
     min-height: 10rem;
+    margin-bottom: 1rem;
     border-radius: 1rem 2rem;
     box-shadow: .125rem .25rem .5rem $black;
     img, figcaption {
       position: absolute;
       left: 0;
-      min-height: 10rem;
       min-width: 100%;
       object-fit: cover;
     }
     img {
       top: 0;
       z-index: 2;
+      min-height: 10rem;
       transition: {
         property: top, left, transform, filter;
         duration: .5s;
