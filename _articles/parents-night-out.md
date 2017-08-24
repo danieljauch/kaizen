@@ -3,7 +3,7 @@ layout: post
 title: Parent's Night Out
 description:
 image_path: /uploads/parents-night-out.jpg
-permalink: /events/example-event/
+permalink: /events/parent-night-out
 published: true
 ---
 
