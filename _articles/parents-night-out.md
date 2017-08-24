@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Parent's Night Out
-description:
+description: This is a test
 image_path: /uploads/parents-night-out.jpg
 permalink: /events/parent-night-out
 published: true
