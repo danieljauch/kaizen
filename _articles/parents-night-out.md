@@ -5,6 +5,7 @@ description:
 image_path: /uploads/parents-night-out.jpg
 permalink: /events/parent-night-out
 published: true
+date: 
 ---
 
 

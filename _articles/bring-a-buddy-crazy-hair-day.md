@@ -5,6 +5,7 @@ description:
 image_path: /uploads/crazy-hair-day-event.PNG
 permalink: /events/example-event/
 published: false
+date: 
 ---
 
 
