@@ -47,9 +47,6 @@ $(document).ready(function () {
     e.preventDefault();
     $('.overlay').removeClass('open');
   });
-  $('.overlay').click(function () {
-    $(this).removeClass('open');
-  });
 });
 
 function checkLogin () {

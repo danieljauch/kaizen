@@ -152,7 +152,58 @@
     <h4>Send us a message and we'll talk to you</h4>
   </header>
   <div class="close btn"><i class="fa fa-times" aria-hidden="true"></i></div>
-  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfS2vrgGG69O92a6uZbRkH6B3xnyeFUI3oQHMD6nknG3j_Iwg/viewform?embedded=true" width="100%" height="1300" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+  <form method="POST" action="http://formspree.io/sensei.jauch@gmail.com" class="contact-form">
+  <input type="hidden" name="_cc" value="daniel.p.jauch@gmail.com">
+  <h4>Contact us:</h4>
+  <p class="contact-area contact-type-area">
+    <span>Please contact me by </span>
+    <select id="contact-type" name="contact-me-by">
+      <option value="phone">Phone</option>
+      <option value="email">Email</option>
+      <option value="text">Text</option>
+    </select>
+  </p>
+  <p class="contact-area contact-name-area">
+    <span>My name is </span>
+    <input type="text" id="contact-name" name="name">
+  </p>
+  <p class="contact-area contact-phone-area">
+    <span>My phone number is </span>
+    <input type="text" id="contact-phone" name="phone-number">
+  </p>
+  <p class="contact-area contact-email-area">
+    <span>My email is </span>
+    <input type="email" id="contact-email" name="email">
+  </p>
+  <p class="contact-area contact-information-area">
+    <span>Comments:</span>
+    <textarea id="contact-information" placeholder="Tell us about yourself / your child, ask anything you like." name="comments"></textarea>
+  </p>
+  <p class="contact-area contact-programs-area">
+    <div>Anything in particular you'd like to get information about?</div>
+    <div class="checkbox-wrap">
+      <div class="checkbox-item">
+        <input type="checkbox" id="kickbox" name="kickbox-now"><label for="kickbox"> Kickbox NOW!</label>
+      </div>
+      <div class="checkbox-item">
+        <input type="checkbox" id="dragons" name="dragons"><label for="dragons"> Little Dragons</label>
+      </div>
+      <div class="checkbox-item">
+        <input type="checkbox" id="tigers" name="tigers-eagles"><label for="tigers"> Tigers / Eagles</label>
+      </div>
+      <div class="checkbox-item">
+        <input type="checkbox" id="panthers" name="panthers"><label for="panthers"> Panthers</label>
+      </div>
+      <div class="checkbox-item">
+        <input type="checkbox" id="adults" name="adults"><label for="adults"> Adult classess</label>
+      </div>
+    </div>
+  </p>
+  <button class="btn submit-btn">Send <i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+  <p class="contact-area contact-page-area hide">
+    <span id="page-origin"></span>
+  </p>
+</form>
 
 </div>
 <section class="grabber">
@@ -173,6 +224,18 @@
   
     
   
+    
+      <a href="/events/parent-night-out/">
+        <article class="post page-content-item">
+          <header class="post-header page-content-header">
+            <h4 class="post-title">Parent's Night Out</h4>
+          </header>
+          <p class="description post-description"></p>
+          
+            <img src="/uploads/parents-night-out.jpg" alt="Parent's Night Out" class="post-image">
+          
+        </article>
+      </a>
     
   
     

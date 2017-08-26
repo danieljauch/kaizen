@@ -1,3 +1,5 @@
+// _grabber.scss
+
 .overlay {
   position: absolute;
   top: -1000vh;
@@ -5,7 +7,7 @@
   width: 100%;
   height: 200vh;
   z-index: 100;
-  background: rgba($black, .75);
+  background: rgba($black, .9);
   filter: opacity(0);
   transition: {
     property: filter;
@@ -29,7 +31,7 @@
       color: $orange;
     }
   }
-  iframe {
+  .contact-form {
     display: block;
     max-width: 90%;
     max-height: 80vh;
@@ -41,7 +43,7 @@
     filter: opacity(1);
   }
   @include breakpoint($tablet) {
-    iframe {
+    .contact-form {
       max-width: 50%;
     }
   }
@@ -50,14 +52,11 @@
   position: absolute;
   top: 3rem;
   right: 2rem;
-  font-size: 2rem;
-  width: 15rem;
 }
 .front-page .grabber .btn {
-  top: 5rem;
-  right: calc(50% - 7.5rem);
+  top: 4rem;
   box-shadow: 0 0 4rem $black;
   @include breakpoint($tablet) {
-    top: 13rem;
+    font-size: 2rem;
   }
 }

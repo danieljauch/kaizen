@@ -6,9 +6,9 @@ layout: page
   <p>At Kaizen International Black Belt Academy, we believe in providing opportunities for community connection and personal growth. We hope you'll find areas to get involved, grow and make connections. This is where we'll keep you posted!</p>
 </article>
 <section class="events posts-area page-content-area">
-  {% assign posts = site.articles | sort: 'event_date' %}
+  {% assign posts = site.articles | where:"published","true" | sort: 'event_date' %}
   {% for post in posts %}
-    {% if post.published and site.time < post.event_date %}
+    {% if site.time < post.event_date %}
       <a href="{{ post.permalink }}">
         <article class="post page-content-item">
           <header class="post-header page-content-header">

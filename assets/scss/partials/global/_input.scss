@@ -1,3 +1,5 @@
+// _input.scss
+
 input,
 select,
 textarea {
@@ -32,6 +34,24 @@ input[type="file"] {
   position: absolute;
   z-index: -1;
   top: -100vh;
+}
+input[type="checkbox"] {
+  width: 1rem;
+  height: 1rem;
+  border: 2px solid rgba($white, .5);
+  cursor: pointer;
+  transition: {
+    property: border, background;
+    duration: .2s;
+    timing-function: $cubic;
+  }
+  &:hover {
+    border: 2px solid $red;
+  }
+  &:checked {
+    border: 2px solid $red;
+    background: rgba($orange, .5);
+  }
 }
 textarea {
   resize: vertical;
