@@ -39,6 +39,17 @@ $(document).ready(function () {
       submitLogin();
     }
   });
+  $('.grabber').click(function (e) {
+    e.preventDefault();
+    $('.overlay').addClass('open');
+  });
+  $('.overlay .close').click(function (e) {
+    e.preventDefault();
+    $('.overlay').removeClass('open');
+  });
+  $('.overlay').click(function () {
+    $(this).removeClass('open');
+  });
 });
 
 function checkLogin () {

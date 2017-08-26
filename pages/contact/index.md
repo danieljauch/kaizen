@@ -17,4 +17,4 @@ Philip Jauch - *Owner* [(sensei.jauch@gmail.com)](javascript:void(location.href=
 
 Shelly Jauch - *Owner* [(mrs.jauch.ibba@gmail.com)](javascript:void(location.href='mailto:'+String.fromCharCode(109,114,115,46,106,97,117,99,104,46,105,98,98,97,64,103,109,97,105,108,46,99,111,109)))
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfS2vrgGG69O92a6uZbRkH6B3xnyeFUI3oQHMD6nknG3j_Iwg/viewform?embedded=true" width="100%" height="1300" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+{% include contact-form.html %}

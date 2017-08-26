@@ -27,6 +27,7 @@ include: ['_pages']
 # plugins: [jekyll-paginate]
 # paginate: 5
 # paginate_path: "/events/page:num/"
+future: true
 
 # Collections
 collections:

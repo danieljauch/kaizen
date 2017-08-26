@@ -12,11 +12,12 @@ button, .btn {
     radius: .25rem;
   }
   transition: {
-    property: color, border, background;
+    property: color, border, background, transform;
     duration: .5s;
     timing-function: $cubic;
   }
   &:focus, &:hover {
+    transform: scale(1.1);
     background: darken($red, 5%);
     color: $white;
     border-bottom: 2px solid rgba($black, .5);

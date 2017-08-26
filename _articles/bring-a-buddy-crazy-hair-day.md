@@ -3,9 +3,9 @@ layout: post
 title: Bring a Buddy Crazy Hair Day
 description:
 image_path: /uploads/crazy-hair-day-event.PNG
-permalink: /events/example-event/
-published: false
-date: 
+permalink: /events/crazy-hair-day/
+published: true
+event_date: 2017-08-04 23:59:59 -0700
 ---
 
 
