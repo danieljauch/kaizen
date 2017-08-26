@@ -29,7 +29,7 @@
       color: $orange;
     }
   }
-  iframe {
+  .contact-form {
     display: block;
     max-width: 90%;
     max-height: 80vh;
@@ -41,7 +41,7 @@
     filter: opacity(1);
   }
   @include breakpoint($tablet) {
-    iframe {
+    .contact-form {
       max-width: 50%;
     }
   }

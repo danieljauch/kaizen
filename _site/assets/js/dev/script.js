@@ -50,6 +50,13 @@ $(document).ready(function () {
   $('.overlay').click(function () {
     $(this).removeClass('open');
   });
+  $('.contact-form #contact-type').change(function () {
+    var type = $(this).find('option:selected').val();
+    console.log(type);
+    if (type == 'email') {
+
+    }
+  });
 });
 
 function checkLogin () {

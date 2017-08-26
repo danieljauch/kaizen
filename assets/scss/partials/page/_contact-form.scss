@@ -1,0 +1,46 @@
+.contact-form {
+  padding: 1rem;
+  background: linear-gradient(
+    to bottom left,
+    darken($red, 25%),
+    darken($red, 20%)
+  );
+  h4 {
+    padding: 0 0 .5rem;
+    border-bottom: .25rem solid rgba($white, .5);
+    margin: 0 0 .5rem;
+  }
+  .contact-area {
+    max-height: 6rem;
+    filter: opacity(1);
+    transition: {
+      property: max-height, filter;
+      duration: .5s;
+      timing-function: $cubic;
+    }
+    select, input {
+      display: inline-block;
+      width: auto;
+      max-width: 100%;
+      border-radius: 0;
+    }
+    select, input, textarea {
+      color: $orange;
+      background: rgba($white, .05);
+      padding: .25rem .5rem;
+    }
+    textarea {
+      margin-top: 1rem;
+      resize: vertical;
+    }
+    &.hide {
+      max-height: 0;
+      filter: opacity(0);
+    }
+  }
+  &:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+}
