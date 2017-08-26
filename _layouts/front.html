@@ -34,7 +34,9 @@ layout: default
     <h2>Events:</h2>
   </header>
   <section class="events posts-area page-content-area">
-    {% assign posts = site.articles | where:"published","true" | sort: 'event_date' %}
+    {% assign posts = site.articles |
+        where: 'published', 'true' |
+        sort: 'event_date' %}
     {% for post in posts %}
       {% if site.time < post.event_date %}
         <a href="{{ post.permalink }}">
