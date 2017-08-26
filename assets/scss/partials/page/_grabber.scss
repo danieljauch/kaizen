@@ -46,9 +46,18 @@
     }
   }
 }
-.grabber {
+.grabber .btn {
   position: absolute;
   top: 3rem;
   right: 2rem;
   font-size: 2rem;
+  width: 15rem;
+}
+.front-page .grabber .btn {
+  top: 5rem;
+  right: calc(50% - 7.5rem);
+  box-shadow: 0 0 4rem $black;
+  @include breakpoint($tablet) {
+    top: 13rem;
+  }
 }
