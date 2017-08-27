@@ -23,3 +23,5 @@ order: 1
 **Easy to stick with**: It’s hard to get bored when your workouts are so high-energy, fun, and constantly changing. You’ll be looking forward to your next class!
 
 **Low-cost**: At Kaizen KickBox NOW!, you’ll get the same high-quality instruction and state-of-the-art facilities at about half the price. Come check us out and get your KickBox on!
+
+{% include contact-form.html %}
