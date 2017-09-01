@@ -16,13 +16,17 @@ layout: default
             <header>
               <h2>{{ item.title }}</h2>
             </header>
-            {% if item.image_path %}
-              <figure>
-                <img src="{{ item.image_path }}" alt="{{ item.title }}">
-                <figcaption><p class="subtitle">{{ item.subtitle }}</p></figcaption>
-              </figure>
+            {% if item.video %}
+              <iframe src="https://fast.wistia.net/embed/iframe/c7mok2agt9?controlsVisibleOnLoad=true&playerColor=333333&plugin%5Bsocialbar-v1%5D%5BbadgeImage%5D=http%3A%2F%2Fembed.wistia.com%2Fdeliveries%2F3574f7f1910ee97739ad806a18fc577d0475301f.jpg%3Fimage_resize%3D100&plugin%5Bsocialbar-v1%5D%5BbadgeUrl%5D=http%3A%2F%2Fdatasphere.com%3Futm_source%3Dembedvideo%3Futm_source%3Dembedvideo&plugin%5Bsocialbar-v1%5D%5Bbuttons%5D=facebook-twitter&plugin%5Bsocialbar-v1%5D%5Blogo%5D=true&plugin%5Bsocialbar-v1%5D%5BpageUrl%5D=https%3A%2F%2Fmy.datasphere.com%2Fnode%2F8644764%3Futm_source%3Dembedvideo&version=v1&videoHeight=360&videoWidth=640&volumeControl=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed front-page-video" name="wistia_embed" width="100%" height="300"></iframe>
             {% else %}
-              <p class="subtitle">{{ item.subtitle }}</p>
+              {% if item.image_path %}
+                <figure>
+                  <img src="{{ item.image_path }}" alt="{{ item.title }}">
+                  <figcaption><p class="subtitle">{{ item.subtitle }}</p></figcaption>
+                </figure>
+              {% else %}
+                <p class="subtitle">{{ item.subtitle }}</p>
+              {% endif %}
             {% endif %}
           </article>
         </a>
