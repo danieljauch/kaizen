@@ -5,7 +5,7 @@ description:
 image_path: /uploads/sept-newsletter.PNG
 permalink: /events/sept_newsletter_2017
 published: true
-event_date: 2017-08-13 00:00:00
+event_date: 2017-09-30 00:00:00
 ---
 
 
