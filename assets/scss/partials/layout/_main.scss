@@ -1,5 +1,8 @@
 .site-wrap {
   padding: 6rem 0 2rem;
+  @include breakpoint($tablet) {
+    padding-top: 10rem;
+  }
 }
 main {
   position: relative;
@@ -7,7 +10,7 @@ main {
   min-height: 75vh;
   max-width: 80rem;
   margin: 0 auto 3rem;
-  padding: 1rem 1rem 7rem;
+  padding: 1rem 1rem 15rem;
   background: linear-gradient(to bottom right, lighten($black, 5%), darken($red, 25%));
   box-shadow: 0 0 2rem $black;
   &.front {
@@ -16,6 +19,9 @@ main {
     @include breakpoint($tablet) {
       margin: 20rem auto 2rem;
     }
+  }
+  @include breakpoint($desktop) {
+    padding: 1rem 1rem 7rem;
   }
   @include breakpoint($desktop-large) {
     max-width: 100rem;
