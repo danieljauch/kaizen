@@ -2,8 +2,10 @@
 layout: post
 title: Women's Self Defense
 description:
-image_path: /uploads/bb-test-aug-2017.PNG
-permalink: /events/bb-test-aug-2017/
+image_path: /uploads/womens-self-defense-flyer.PNG
+permalink: /events/womens_self_defense_oct_2017
 published: true
-event_date: '2017-08-12 23:59:59 -0700'
+event_date: 2017-10-15 00:00:00
 ---
+
+
