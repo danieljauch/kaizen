@@ -4,7 +4,7 @@ title: UMAAI Yudansha 2017
 description:
 image_path: /uploads/yudansha.png
 permalink: /events/umaai-yudansha-2017
-published: true
+published: false
 event_date: 2017-10-10 00:00:00
 ---
 
