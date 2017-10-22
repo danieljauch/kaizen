@@ -10,3 +10,4 @@ order: 1
 * [New Student Guide](/assets/pdf/Student-Docs/New Student Guide.pdf)
 * [Notebook Cover Page](/assets/pdf/Student-Docs/Notebook cover page.pdf)
 * [3 Acts of Grattitude](/assets/pdf/Student-Docs/gratitude-three acts of kindness.pdf)
+* [Patch Guide](/assets/pdf/Student-Docs/patch guide.PDF)
