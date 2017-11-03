@@ -1,5 +1,7 @@
 ---
 title: Mantis Cycle Curriculum
+description:
+tags: 
 order: 9
 ---
 

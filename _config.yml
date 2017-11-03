@@ -1,7 +1,8 @@
 # Site settings
 title: Kaizen IBBA
 email: staff.ftc.ibba@gmail.com
-description:
+description: 
+keywords:
 baseurl: "/" # the subpath of your site
 url: "http://kaizenibba.com" # the base hostname & protocol for your site
 timezone: America/Denver

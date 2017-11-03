@@ -1,5 +1,7 @@
 ---
 title: What makes the IBBA Karate Program for kids so special?
+description:
+tags: 
 order: 1
 ---
 

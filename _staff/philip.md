@@ -1,5 +1,7 @@
 ---
 title: Sensei Philip Jauch
+description:
+tags: 
 job_title: Owner / Sensei / Senior Instructor
 image_path: /assets/images/staff/Phil-Jauch.jpg
 order: 1

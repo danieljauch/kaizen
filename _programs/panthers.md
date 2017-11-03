@@ -1,5 +1,7 @@
 ---
 title: Panthers
+description:
+tags: 
 age: 8-14 yrs
 order: 4
 ---

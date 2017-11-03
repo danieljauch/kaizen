@@ -1,5 +1,7 @@
 ---
 title: Kickbox NOW!
+description:
+tags: 
 permalink: /programs/kickbox/
 image_path: "/assets/images/kickbox_now.png"
 order: 1

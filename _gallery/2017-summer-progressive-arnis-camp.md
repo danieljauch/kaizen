@@ -1,6 +1,8 @@
 ---
 layout: gallery
 title: Summer Progressive Arnis Camp 2017
+description:
+tags: 
 spotlight_image_path: /uploads/20479620-10212373158551508-9058981799831617876-n.jpg
 permalink: /events/summer-progressive-arnis-camp-2017/
 images:

@@ -2,6 +2,7 @@
 layout: post
 title: Bring a Buddy Crazy Hair Day
 description:
+tags: 
 image_path: /uploads/crazy-hair-day-event.PNG
 permalink: /events/crazy-hair-day/
 published: true

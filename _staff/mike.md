@@ -1,5 +1,7 @@
 ---
 title: Mike Klusman
+description:
+tags: 
 job_title: Instructor
 image_path: /assets/images/staff/Mike-Klusman.jpg
 order: 7

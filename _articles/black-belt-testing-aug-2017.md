@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Black Belt Testing August 2017
-description:
+description: 
+tags:
 image_path: /uploads/bb-test-aug-2017.PNG
 permalink: /events/bb-test-aug-2017/
 published: true

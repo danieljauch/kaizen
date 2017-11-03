@@ -1,5 +1,7 @@
 ---
 title: Carissa Morris
+description:
+tags: 
 job_title: Instructor
 image_path: /assets/images/staff/Carissa-Morris.jpg
 order: 6

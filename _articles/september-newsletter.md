@@ -2,6 +2,7 @@
 layout: post
 title: September Newsletter
 description:
+tags: 
 image_path: /uploads/sept-newsletter.PNG
 permalink: /events/sept_newsletter_2017
 published: true

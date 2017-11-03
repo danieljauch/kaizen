@@ -1,5 +1,7 @@
 ---
 title: Leopard Cycle Curriculum
+description:
+tags: 
 order: 7
 ---
 
