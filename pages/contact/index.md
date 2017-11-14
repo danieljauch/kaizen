@@ -1,8 +1,6 @@
 ---
 layout: page
-title: Contact
-keywords: test
-description: test1
+title: Contact Us
 permalink: /contact/
 ---
 
