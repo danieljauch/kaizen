@@ -3,8 +3,10 @@ layout: post
 title: November Newsletter
 description:
 tags:
-image_path: /uploads/bb-test-aug-2017.PNG
-permalink: /events/bb-test-aug-2017/
+image_path: /uploads/mantis-nov-jan-2017-18.PNG
+permalink: /events/nov-newsletter-2017/
 published: true
-event_date: '2017-08-12 23:59:59 -0700'
+event_date: 2017-12-02 00:00:00
 ---
+
+
