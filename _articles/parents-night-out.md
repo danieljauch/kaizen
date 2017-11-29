@@ -2,9 +2,9 @@
 layout: post
 title: Parent's Night Out
 description:
-tags: 
+tags:
 image_path: /uploads/parents-night-out.jpg
-permalink: /events/parent-night-out/
+permalink: /events/parent-night-out_sept_2015/
 published: true
 event_date: 2017-10-01 00:00:00
 ---
