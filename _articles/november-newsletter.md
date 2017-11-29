@@ -1,6 +1,6 @@
 ---
 layout: post
-title: November Newsletter
+title: Mantis Newsletter
 description:
 tags:
 image_path: /uploads/mantis-nov-jan-2017-18.PNG
