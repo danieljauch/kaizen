@@ -1,10 +1,12 @@
 ---
 layout: post
-title: Womens Self Defense 2018
+title: Womens Self Defense January 2018
 description:
 tags:
-image_path: /uploads/bb-test-aug-2017.PNG
-permalink: /events/bb-test-aug-2017/
+image_path: /uploads/womens-waiver.PNG
+permalink: /events/womens-jan-2018/
 published: true
-event_date: '2017-08-12 23:59:59 -0700'
+event_date: 2018-01-29 00:00:00
 ---
+
+
