@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Womens Self Defense January 2018 - Click to see waiver
+title: Womens Self Defense January 2018 - Click For More Info
 description:
 tags:
 image_path: /uploads/womens-jan-1.PNG
