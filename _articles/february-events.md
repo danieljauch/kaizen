@@ -3,8 +3,10 @@ layout: post
 title: February Events
 description:
 tags:
-image_path: /uploads/bb-test-aug-2017.PNG
-permalink: /events/bb-test-aug-2017/
+image_path: /uploads/feb-event.PNG
+permalink: /events/feb-event-2018/
 published: true
-event_date: '2017-08-12 23:59:59 -0700'
+event_date: 2018-03-01 00:00:00
 ---
+
+
