@@ -10,3 +10,4 @@ event_date: 2018-01-29 00:00:00
 ---
 
 
+[/assets/pdf/Events/Self-defense registration.pdf](/assets/pdf/Events/Self-defense registration.pdf)
