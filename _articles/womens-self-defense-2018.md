@@ -10,6 +10,3 @@ event_date: 2018-01-29 00:00:00
 ---
 
 
-## [Click here to&nbsp;](__notset__)[D](/assets/pdf/Events/Self-defense registration.pdf)[ownload the waiver pdf](__notset__)
-
-![](/uploads/versions/womens-waiver-1---x----637-836x---.PNG)
