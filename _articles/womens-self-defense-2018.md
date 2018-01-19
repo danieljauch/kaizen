@@ -10,4 +10,4 @@ event_date: 2018-01-29 00:00:00
 ---
 
 
-![](/uploads/versions/womens-jan-2---x----648-832x---.PNG)![](/uploads/versions/womens-waiver-1---x----637-836x---.PNG)
+![](/uploads/versions/womens-waiver-1---x----637-836x---.PNG)
