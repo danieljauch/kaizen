@@ -1,4 +1,4 @@
-# Front Range Fire Rescue
+# Kaizen IBBA
 
 # Get your local environment setup on OSX
 
@@ -10,17 +10,15 @@
 
 `$ brew install node010`
 
-
-
 # Setup the site
 
 ## Clone the repo
 
 Create and move to the directory where you want to copy the site/repo:
-`$ mkdir ~/VS/frontrangefirerescue.co/local && ~/VS/frontrangefirerescue.co/local `
+`$ mkdir ~/kaizen && ~/kaizen `
 
 Clone the repo into the local directory:
-`$ git clone https://github.com/variantstudios/frontrangefirerescue.co . `
+`$ git clone https://github.com/danieljauch/kaizen . `
 
 ## Setup the site
 
