@@ -1,7 +1,7 @@
 ---
 title: Eagle Cycle Curriculum
 description:
-tags: 
+tags:
 order: 3
 ---
 
@@ -12,3 +12,4 @@ order: 3
 * [Eagles](/assets/pdf/Eagle-Curriculum/Eagle-Cycle---Eagles.pdf)
 * [Panthers](/assets/pdf/Eagle-Curriculum/Youth-Eagle-Cycle-2017.pdf)
 * [Adults](/assets/pdf/Eagle-Curriculum/Eagle-Cycle---Adults.pdf)
+* [Black Belts](/assets/pdf/Eagle-Curriculum/BB1_Eagle.pdf)
