@@ -3,8 +3,10 @@ layout: post
 title: Eagle Newsletter
 description:
 tags:
-image_path: /uploads/bb-test-aug-2017.PNG
+image_path: /uploads/eagle-newsletter.PNG
 permalink: /events/bb-test-aug-2017/
 published: true
-event_date: '2017-08-12 23:59:59 -0700'
+event_date: 2018-03-26 00:00:00
 ---
+
+
