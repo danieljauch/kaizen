@@ -1,7 +1,7 @@
 ---
 title: Tiger Cycle Curriculum
 description:
-tags: 
+tags:
 order: 5
 ---
 
@@ -12,3 +12,4 @@ order: 5
 * [Eagles](/assets/pdf/Tiger-Curriculum/Eagle---Tiger-Cycle-2017.pdf)
 * [Panthers](/assets/pdf/Tiger-Curriculum/Panthers---Tiger-Cycle-2017.pdf)
 * [Adults](/assets/pdf/Tiger-Curriculum/Adult---Tiger-Cycle-2017-A-List.pdf)
+* [Black Belts](/assets/pdf/Tiger-Curriculum/BB1_Tiger.pdf)
