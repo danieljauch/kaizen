@@ -1,7 +1,7 @@
 ---
 title: Crane Cycle Curriculum
 description:
-tags: 
+tags:
 order: 6
 ---
 
@@ -12,3 +12,4 @@ order: 6
 * [Eagles](/assets/pdf/Crane-Curriculum/Crane-Cycle---Eagles.pdf)
 * [Panthers](/assets/pdf/Crane-Curriculum/Crane-Cycle---Panthers.pdf)
 * [Adults](/assets/pdf/Crane-Curriculum/Crane-Cycle---Adults.pdf)
+* [Black Belts](/assets/pdf/Crane-Curriculum/BB1_Crane.pdf)
