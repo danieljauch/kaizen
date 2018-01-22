@@ -14,4 +14,4 @@ event_date: 2018-01-29 00:00:00
 
 ### Click the following link to download the pdf:
 
-[/assets/pdf/Events/Self-defense registration.pdf](/assets/pdf/Events/Self-defense registration.pdf)
+[Registration Sheet](/assets/pdf/Events/Self-defense registration.pdf)
