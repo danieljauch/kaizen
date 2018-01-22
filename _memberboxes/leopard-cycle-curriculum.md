@@ -1,7 +1,7 @@
 ---
 title: Leopard Cycle Curriculum
 description:
-tags: 
+tags:
 order: 7
 ---
 
@@ -12,3 +12,4 @@ order: 7
 * [Eagles](/assets/pdf/Leopard-Curriculum/Leopard-Cycle---Eagles.pdf)
 * [Panthers](/assets/pdf/Leopard-Curriculum/Leopard-Cycle---Panthers.pdf)
 * [Adults](/assets/pdf/Leopard-Curriculum/Leopard-Cycle---Adults.pdf)
+* [Black Belts](/assets/pdf/Leopard-Curriculum/BB1_Leopard.pdf)
