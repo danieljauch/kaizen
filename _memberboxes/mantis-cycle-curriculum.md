@@ -1,7 +1,7 @@
 ---
 title: Mantis Cycle Curriculum
 description:
-tags: 
+tags:
 order: 9
 ---
 
@@ -12,3 +12,4 @@ order: 9
 * [Eagles](/assets/pdf/Mantis-Curriculum/Mantis-Cycle---Eagles.pdf)
 * [Panthers](/assets/pdf/Mantis-Curriculum/Mantis-Cycle---Panthers.pdf)
 * [Adults](/assets/pdf/Mantis-Curriculum/Mantis-Cycle---Adults.pdf)
+* [Black Belts](/assets/pdf/Mantis-Curriculum/BB1_Mantis.pdf)
