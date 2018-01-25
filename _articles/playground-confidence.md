@@ -3,8 +3,10 @@ layout: post
 title: Playground Confidence
 description:
 tags:
-image_path: /uploads/bb-test-aug-2017.PNG
-permalink: /events/bb-test-aug-2017/
+image_path: /uploads/playground-confidence-flyer-pic.PNG
+permalink: /events/playground_2018
 published: true
-event_date: '2017-08-12 23:59:59 -0700'
+event_date: 2018-02-18 00:00:00
 ---
+
+
