@@ -1,7 +1,7 @@
 ---
-title: UMAAI Docs
+title: Event & Seminar Docs
 description:
-tags: 
+tags:
 order: 0
 ---
 
