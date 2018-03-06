@@ -1,10 +1,11 @@
 ---
 layout: post
-title: Kick-A-Thon
+title: St. Pat'kicks' Day Kick-A-Thon
 description:
 tags:
-image_path: /uploads/bb-test-aug-2017.PNG
-permalink: /events/bb-test-aug-2017/
+image_path: /uploads/kick-a-thon-flyer-for-web.PNG
+permalink: /events/kickathon_2018
 published: true
 event_date: 2017-08-13 00:59:59 -0600
 ---
+
