@@ -3,8 +3,9 @@ layout: post
 title: Karate Summer Camps 2018
 description:
 tags:
-image_path: /uploads/bb-test-aug-2017.PNG
-permalink: /events/bb-test-aug-2017/
+image_path: /uploads/karatesummercamp2018.png
+permalink: /events/karate-summer-camps-2018/
 published: true
-event_date: 2017-08-13 18:59:59 +1200
+event_date: 2018-08-10 00:00:00 -0600
 ---
+
