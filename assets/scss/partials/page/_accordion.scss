@@ -10,7 +10,7 @@
   .accordion-header {
     padding: .5rem 1rem;
     h3 {
-      color: $red;
+      color: lighten($red, 10%);
       display: inline-block;
       width: calc(100% - 3rem);
     }

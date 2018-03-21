@@ -32,7 +32,7 @@
       timing-function: $cubic;
     }
     h4 {
-      color: $red;
+      color: lighten($red, 10%);
     }
     &.open {
       max-height: 12rem;

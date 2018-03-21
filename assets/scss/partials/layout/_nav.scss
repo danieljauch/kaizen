@@ -2,7 +2,7 @@ nav {
   grid-area: menu;
   text-align: right;
   .mobile-menu-toggle {
-    color: $red;
+    color: lighten($red, 10%);
     letter-spacing: .125rem;
     text-shadow: 1px .125rem .5rem $black;
     font: {
@@ -27,7 +27,7 @@ nav {
     .menu-item {
       text-align: right;
       .menu-link {
-        color: $red;
+        color: lighten($red, 10%);
         letter-spacing: .125rem;
         font: {
           family: 'Shojumaru', cursive;

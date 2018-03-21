@@ -9,7 +9,7 @@ h1, h2, h3 {
   letter-spacing: .125rem;
 }
 h1 {
-  color: $red;
+  color: lighten($red, 10%);
   font-size: 1.5rem;
 }
 h2 {

@@ -1,6 +1,6 @@
 .front {
   h2 {
-    color: red;
+    color: lighten($red, 10%);
   }
   .content-area {
     .front-display-box {

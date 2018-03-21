@@ -16,7 +16,7 @@
         font-family: 'Shojumaru', cursive;
         font-size: 1.2rem;
         letter-spacing: .125rem;
-        color: $red;
+        color: lighten($red, 10%);
         text-shadow: 0.05rem 0.05rem $white;
       }
       h5 {
