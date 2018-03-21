@@ -4,6 +4,7 @@ body {
   min-height: 100vh;
   margin: 0;
   overflow-x: hidden;
+  line-height: 1.4;
   font: {
     family: 'Josefin Sans', arial, sans-serif;
     size: 22px;
@@ -44,7 +45,7 @@ div, p {
   background: rgba($white, .1);
 }
 ::-webkit-scrollbar-thumb {
-  background: rgba($red, .4);
+  background: $red;
 }
 @include selection {
   color: $white;

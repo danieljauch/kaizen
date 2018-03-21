@@ -1,0 +1,14 @@
+.tag-wrap {
+	@include pseudo-list;
+}
+.horizontal-tag-list {
+	@include inline-list;
+}
+.vertical-tag-list {
+	@include alternating-list;
+}
+.tag {
+	background: linear-gradient($red, darken($red, 10%));
+	padding: .25rem;
+	border-radius: .25rem;
+}

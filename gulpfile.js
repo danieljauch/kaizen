@@ -66,7 +66,7 @@ gulp.task('scripts', () => {
 gulp.task('watch', () => {
     gulp.watch('assets/scss/**', ['compass']);
     gulp.watch('assets/js/dev/**.js', ['scripts']);
-    gulp.watch(['_config.yml', '_data/**', '_events/**', '_faqs/**', '_gallery/**', '_includes/**.html', '_layouts/**.html', '_lineage/**', '_posts/**', '_programs/**', '_staff/**', '_values/**', 'pages/**', 'index.html'], ['jekyll-rebuild']);
+    gulp.watch(['_config.yml', '_data/**', '_articles/**', '_faqs/**', '_gallery/**', '_includes/**.html', '_layouts/**.html', '_lineage/**', '_posts/**', '_programs/**', '_staff/**', '_values/**', 'pages/**', 'index.html'], ['jekyll-rebuild']);
 });
 
 /* Default task, running just `gulp` will compile the sass,
