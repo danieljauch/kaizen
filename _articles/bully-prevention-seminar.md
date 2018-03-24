@@ -7,7 +7,7 @@ description: >-
 tags:
 image_path: /uploads/bully.PNG
 permalink: /events/bully-prevention-seminar-2018/
-published: true
+published: false
 event_date: 2018-05-20 00:00:00 -0600
 ---
 
