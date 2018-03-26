@@ -7,7 +7,7 @@ order: 4
 
 Currently being built- Expect updates by Tuesday 3/27/2018
 
-* Dragon Cycle Weekly Class Breakouts
+* [Dragon Cycle Weekly Class Breakouts](/assets/pdf/Dragon-Curriculum/Dragon Cycle Weekly Class Breakouts.pdf)
 
 &nbsp;
 
