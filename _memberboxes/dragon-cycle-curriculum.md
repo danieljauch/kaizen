@@ -11,5 +11,6 @@ order: 4
 * [Advanced Tigers](/assets/pdf/Dragon-Curriculum/Dragon-Cycle---Advanced-Tigers-2017.pdf)
 * [Eagles](/assets/pdf/Dragon-Curriculum/Dragon-Cycle---Eagles-2017.pdf)
 * [Panthers](/assets/pdf/Dragon-Curriculum/Panthers Dragon Curriculum 2018.pdf)
+* Jr Blacks
 * Adults
 * [Black Belts](/assets/pdf/Dragon-Curriculum/BB1_Dragon.pdf)
