@@ -7,6 +7,7 @@ image_path: /uploads/crazy-hair-day-event.PNG
 permalink: /events/crazy-hair-day/
 published: true
 event_date: 2017-08-04 23:59:59 -0700
+show_date: false
 ---
 
 
