@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Dragon Cycle 2018
-description:
+description: Dragon curriculum cycle events and news
 tags:
+  - event
 image_path: /uploads/Screen Shot 2018-03-19 at 17.30.00.png
 permalink: /events/dragon-cycle-2018/
 published: true
