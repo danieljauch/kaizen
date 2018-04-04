@@ -11,7 +11,7 @@ tags:
   - kids
 image_path: /uploads/focus flyer for web.PNG
 permalink: /events/board-breaking
-published: true
+published: false
 event_date: 2018-05-12 00:00:00 -0600
 show_date: true
 ---
