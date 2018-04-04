@@ -16,4 +16,4 @@ event_date: 2018-05-12 00:00:00 -0600
 show_date: true
 ---
 
-Set SMART goals to finish the school year strong! Free event for kids ages 5-15. Limited space available, call 970-204-9977 or click &nbsp; to reserve your spot.
+Set SMART goals to finish the school year strong! Free event for kids ages 5-15. Limited space available, call 970-204-9977 or click "[Register Here](https://form.jotform.com/80935175356160)"&nbsp; to reserve your spot.
