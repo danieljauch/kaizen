@@ -66,6 +66,9 @@
 	.post-content-header {
 		padding-right: 12rem;
 	}
+	.post-content-text {
+		padding-right: 12rem;
+	}
 }
 @include breakpoint($desktop) {
 	.post-page-split-wrap {
