@@ -17,21 +17,19 @@
 		}
 	}
 }
-.post-full-page-image-wrap {
+.floating-image-container {
+	position: relative;
+}
+.post-full-page-image-wrap, .post-image-wrap {
 	.post-image {
-		float: right;
+		max-width: 10rem;
 		max-height: 14rem;
 		box-shadow: 0.125rem 0.25rem 1rem rgba($black, 0.5);
 		border: 0.25rem solid $red;
 	}
 }
-.post-image-wrap {
-	.post-image {
-		margin: 0 auto 1rem;
-		max-height: 14rem;
-		box-shadow: 0.125rem 0.25rem 1rem rgba($black, 0.5);
-		border: 0.25rem solid $red;
-	}
+.post-content-text {
+	min-height: 20rem;
 }
 .post-footer {
 	position: absolute;
@@ -58,12 +56,15 @@
 	.post-description {
 		padding-right: 12rem !important;
 	}
-	.post-image-wrap {
+	.post-full-page-image-wrap, .post-image-wrap {
 		.post-image {
-			margin: -3rem 0 0;
-			float: right;
-			max-width: 12rem;
+			position: absolute;
+			top: 1rem;
+			right: 1rem;
 		}
+	}
+	.post-content-header {
+		padding-right: 12rem;
 	}
 }
 @include breakpoint($desktop) {

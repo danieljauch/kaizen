@@ -37,20 +37,22 @@ layout: default
   <header class="page-header">
     <h2>Events:</h2>
   </header>
-  <section class="events posts-area page-content-area">
+  <section class="events posts-area page-content-area front-page-articles">
     {% assign posts = site.articles |
         where: 'published', 'true' |
         sort: 'event_date' %}
     {% for post in posts %}
       {% if site.time < post.event_date %}
         <a href="{{ post.permalink }}">
-          <article class="post page-content-item">
+          <article class="post page-content-item floating-image-container">
             <header class="post-header page-content-header">
               <h4 class="post-title">{{ post.title }}</h4>
             </header>
             <p class="description post-description">{{ post.description }}</p>
             {% if post.image_path %}
-              <img src="{{ post.image_path }}" alt="{{ post.title }}" class="post-image">
+              <div class="post-image-wrap">
+                <img src="{{ post.image_path }}" alt="{{ post.title }}" class="post-image">
+              </div>
             {% endif %}
           </article>
         </a>
