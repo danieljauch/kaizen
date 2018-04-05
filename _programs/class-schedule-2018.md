@@ -6,5 +6,4 @@ age: 14+ yrs
 order: 8
 ---
 
-
-![](/uploads/versions/class-schedule-2018-1---x----1046-802x---.PNG)
+![](/uploads/2018-class-schedule-pic-1.JPG)
