@@ -3,41 +3,37 @@ layout: page
 ---
 
 <article class="sub-header editable" data-cms-content-wrapper="/_layouts/events.html">
-  <p>At Kaizen International Black Belt Academy, we believe in providing opportunities for community connection and personal growth. We hope you'll find areas to get involved, grow and make connections. This is where we'll keep you posted!</p>
+  <p>At Kaizen International Black Belt Academy, we believe in providing opportunities for community connection and personal
+    growth. We hope you'll find areas to get involved, grow and make connections. This is where we'll keep you posted!</p>
 </article>
-<div class="post-page-split-wrap">
-  <div class="post-page-left">
-    <section class="events posts-area page-content-area">
-      {% assign posts = site.articles |
-          where: 'published', 'true' |
-          sort: 'event_date' %}
-      {% for post in posts %}
-        {% if site.time < post.event_date %}
-          <a href="{{ post.permalink }}">
-            <article class="post page-content-item">
-              <header class="post-header page-content-header">
-                <h4 class="post-title">{{ post.title }}</h4>
-              </header>
-              <figure class="post-image-wrap">
-                <img src="{{ post.image_path }}" alt="{{ post.title }}" class="post-image">
-                <figcaption class="post-description-wrap">
-                  <p class="description post-description">{{ post.description }}</p>
-                </figcaption>
-              </figure>
-              <footer class="post-footer">
-                <ul class="tag-wrap horizontal-tag-list">
-                  {% for tag in post.tags %}
-                    <li class="tag">{{ tag }}</li>
-                  {% endfor %}
-                </ul>
-                <div class="post-date">Date: {{ post.event_date | date: '%B %d, %Y' }}</div>
-              </footer>
-            </article>
-          </a>
-        {% endif %}
-      {% endfor %}
-    </section>
-  </div>
+<!-- <div class="post-page-split-wrap">
+  <div class="post-page-left"> -->
+<section class="events posts-area page-content-area">
+  {% assign posts = site.articles | where: 'published', 'true' | sort: 'event_date' %} {% for post in posts %} {% if site.time
+  < post.event_date %} <a href="{{ post.permalink }}">
+    <article class="post page-content-item">
+      <header class="post-header page-content-header">
+        <h4 class="post-title">{{ post.title }}</h4>
+      </header>
+      <figure class="post-image-wrap">
+        <img src="{{ post.image_path }}" alt="{{ post.title }}" class="post-image">
+        <figcaption class="post-description-wrap">
+          <p class="description post-description">{{ post.description }}</p>
+        </figcaption>
+      </figure>
+      <footer class="post-footer">
+        <ul class="tag-wrap horizontal-tag-list">
+          {% for tag in post.tags %}
+          <li class="tag">{{ tag }}</li>
+          {% endfor %}
+        </ul>
+        <div class="post-date">Date: {{ post.event_date | date: '%B %d, %Y' }}</div>
+      </footer>
+    </article>
+    </a>
+    {% endif %} {% endfor %}
+</section>
+<!-- </div>
   <div class="post-page-right">
     <aside class="post-tag-filter">
       <header class="post-header page-content-header">
@@ -50,10 +46,13 @@ layout: page
       </ul>
     </aside>
   </div>
-</div>
+</div> -->
 <section class="events page-content-area">
   <article class="calendar page-content-item">
-    <header class="page-content-header"><h4>Calendar:</h4></header>
-    <iframe src="https://calendar.google.com/calendar/embed?src=e388utric889edforu1lf069tc%40group.calendar.google.com&ctz=America/Denver" style="border: 0" width="100%" height="400" frameborder="0" scrolling="no"></iframe>
+    <header class="page-content-header">
+      <h4>Calendar:</h4>
+    </header>
+    <iframe src="https://calendar.google.com/calendar/embed?src=e388utric889edforu1lf069tc%40group.calendar.google.com&ctz=America/Denver"
+      style="border: 0" width="100%" height="400" frameborder="0" scrolling="no"></iframe>
   </article>
 </section>

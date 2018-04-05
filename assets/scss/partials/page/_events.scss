@@ -1,71 +1,83 @@
 .posts-area {
-  .pagination {
-    width: 100%;
-    display: inline-grid;
-    grid-template: {
-      columns: 2rem 1fr 2rem;
-      areas: "prev pages next";
-    }
-    .previous {
-      grid-area: prev;
-    }
-    .page-number {
-      grid-area: pages;
-    }
-    .next {
-      grid-area: next;
-    }
-  }
+	.pagination {
+		width: 100%;
+		display: inline-grid;
+		grid-template: {
+			columns: 2rem 1fr 2rem;
+			areas: "prev pages next";
+		}
+		.previous {
+			grid-area: prev;
+		}
+		.page-number {
+			grid-area: pages;
+		}
+		.next {
+			grid-area: next;
+		}
+	}
+}
+.post-full-page-image-wrap {
+	.post-image {
+		float: right;
+		max-height: 14rem;
+		box-shadow: 0.125rem 0.25rem 1rem rgba($black, 0.5);
+		border: 0.25rem solid $red;
+	}
 }
 .post-image-wrap {
-  .post-image {
-    margin: 0 auto 1rem;
-    max-height: 15rem;
-    box-shadow: 0.125rem 0.25rem 1rem rgba($black, .5);
-    border: .25rem solid $red;
-  }
+	.post-image {
+		margin: 0 auto 1rem;
+		max-height: 14rem;
+		box-shadow: 0.125rem 0.25rem 1rem rgba($black, 0.5);
+		border: 0.25rem solid $red;
+	}
 }
 .post-footer {
-  position: absolute;
-  bottom: 1rem;
-  left: 2rem;
+	position: absolute;
+	bottom: 1rem;
+	left: 2rem;
 }
 .post-date {
-  padding-top: .5rem;
-  color: rgba($white, .5);
+	padding-top: 0.5rem;
+	color: rgba($white, 0.5);
 }
 .post-tag-filter {
-  padding: 1rem;
-  background: linear-gradient(to bottom right, rgba($white, .1), rgba(lighten($red, 10%), .1));
+	padding: 1rem;
+	background: linear-gradient(
+		to bottom right,
+		rgba($white, 0.1),
+		rgba(lighten($red, 10%), 0.1)
+	);
 }
 @include breakpoint($tablet) {
-  .post {
-    min-height: 17rem;
-  }
-  .post-header,
-  .post-description {
-    padding-right: 12rem !important;
-  }
-  .post-image-wrap {
-    .post-image {
-      margin: -3rem 0 0;
-      float: right;
-      max-width: 12rem;
-    }
-  }
+	.post {
+		min-height: 17rem;
+	}
+	.post-header,
+	.post-description {
+		padding-right: 12rem !important;
+	}
+	.post-image-wrap {
+		.post-image {
+			margin: -3rem 0 0;
+			float: right;
+			max-width: 12rem;
+		}
+	}
 }
 @include breakpoint($desktop) {
-  .post-page-split-wrap {
-    width: 100%;
-    display: inline-flex;
-    justify-content: space-between;
-    .post-page-left {
-      flex-basis: 70%;
-      margin-right: 1rem;
-    }
-    .post-page-right {
-      flex-basis: 30%;
-      padding-top: 1rem;
-    }
-  }
+	.post-page-split-wrap {
+		width: 100%;
+		display: inline-flex;
+		justify-content: space-between;
+		.post-page-left {
+			flex-basis: 70%;
+			margin-right: 1rem;
+		}
+		.post-page-right {
+			flex-basis: 30%;
+			padding-top: 1rem;
+		}
+	}
 }
