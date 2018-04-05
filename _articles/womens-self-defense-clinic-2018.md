@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Womens Self Defense Clinic 2018
+title: Women's Self Defense Clinic 2018
 description: |-
   Self-Defense and Assault Prevention
   For women ages 14+ (under 18 should attend with parent or family member)
