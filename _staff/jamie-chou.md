@@ -1,8 +1,8 @@
 ---
 title: Jamie Chou
 description:
-tags: 
-job_title: Intern Instructor
+tags:
+job_title: Tier I Instructor
 image_path: /uploads/img-1415.png
 order: 8
 ---
