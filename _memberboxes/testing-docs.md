@@ -6,7 +6,7 @@ order: 2
 ---
 
 * [Things to Know About Testing](/assets/pdf/Testing-Docs/Things to know about testing.pdf)
-* [Test Times & Dates](/assets/pdf/Testing-Docs/TESTING WEEK SCHEDULE March 2018.pdf)
+* [Test Times & Dates](/assets/pdf/Testing-Docs/testing times and dates.pdf)
 * [Perfect Attendance Tracking Sheet](/assets/pdf/Testing-Docs/Perfect Attendance Tracking Sheet.pdf)
 * [Required Equipment by Level](/assets/pdf/Testing-Docs/Required Equipment by Level.pdf)
 * [Test Fees 2017](/assets/pdf/Testing-Docs/Test Fees 2017.pdf)
