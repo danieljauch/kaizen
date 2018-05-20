@@ -1,8 +1,8 @@
 # Site settings
 title: Kaizen International Black Belt Academy
 email: staff.ftc.ibba@gmail.com
-description: 
-keywords:
+description: "Kaizen IBBA"
+keywords: "Kaizen, IBBA, International Black Belt Academy, Fort Collins, Karate, Martial Arts"
 baseurl: "/" # the subpath of your site
 url: "http://kaizenibba.com" # the base hostname & protocol for your site
 timezone: America/Denver
