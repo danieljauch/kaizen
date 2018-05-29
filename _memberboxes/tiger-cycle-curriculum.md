@@ -5,7 +5,7 @@ tags:
 order: 5
 ---
 
-
+* [Tiger Cycle Weekly Class Breakouts](/assets/pdf/Tiger-Curriculum/Tiger Cycle Weekly Class Breakouts.pdf)
 * Lil' Dragons
 * [Beginning Tigers](/assets/pdf/Tiger-Curriculum/Beginning-Tiger---Tiger-Cycle-2017.pdf)
 * [Advanced Tigers](/assets/pdf/Tiger-Curriculum/Advanced-Tiger---Tiger-Cycle-2017.pdf)
