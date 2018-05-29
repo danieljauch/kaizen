@@ -51,6 +51,11 @@
 		rgba(lighten($red, 10%), 0.1)
 	);
 }
+.calendar-btn {
+	display: inline-block;
+	margin-bottom: 1rem;
+}
+
 @include breakpoint($tablet) {
 	.post {
 		min-height: 17rem;
@@ -73,6 +78,7 @@
 		padding-right: 12rem;
 	}
 }
+
 @include breakpoint($desktop) {
 	.post-page-split-wrap {
 		width: 100%;

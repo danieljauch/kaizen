@@ -1,6 +1,7 @@
 .page-content-area {
   margin-top: 1rem;
   min-height: 20rem;
+
   .page-content-item {
     padding: 1rem;
     margin-bottom: 1rem;
@@ -15,6 +16,10 @@
     }
   }
 }
+.hide-not-logged-in .staff.page-content-area {
+  min-height: auto;
+}
+
 .page-content-header {
   border-bottom: .25rem solid rgba($black, .75);
   margin-bottom: .5rem;
