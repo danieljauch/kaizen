@@ -2,14 +2,28 @@
 layout: post
 title: Family Movie Day
 description: >-
-  Kaizen will be closed July 2nd, 3rd, and 4th for Independence Day and
-  instructor training. All classes will resume on regular schedule July 5th.
-  Progress check week will be July 9th thru 14th and testing week is July 16th
-  thru 20th.
+  Saturday, June 23rd, we will be having a family movie event at the Cinemark on
+  Timberline. You can pre-purchase your tickets now for the 2:35pm showing or
+  meet us at the theater early to purchase your tickets and snacks. The whole
+  family and friends are welcome to join us. 
+
+  Parents, if you would like to use this as your "Parent's Night Out" date
+  opportunity, bring your children to the theater at 2:15 to purchase tickets
+  and snacks, then sign them in with Mrs. Jauch at the ticket windows by 2:30pm.
+  We will walk over to the dojo together after the movie and you can pick your
+  children up by 5:15pm.
+
+  Hope to see you there!
 tags:
-image_path: /uploads/4th July closure pic.PNG
-permalink: /events/July-4th-closures/
+image_path:
+permalink: /events/Family-movie-day/
 published: true
-event_date: 2018-07-04 00:00:00 -0600
-show_date: false
+event_date: 2018-06-23 00:00:00 -0600
+show_date: true
 ---
+
+Saturday, June 23rd, we will be having a family movie event at the Cinemark on Timberline. You can pre-purchase your tickets now for the 2:35pm showing or meet us at the theater early to purchase your tickets and snacks. The whole family and friends are welcome to join us.&nbsp;
+
+Parents, if you would like to use this as your "Parent's Night Out" date opportunity, bring your children to the theater at 2:15 to purchase tickets and snacks, then sign them in with Mrs. Jauch at the ticket windows by 2:30pm. We will walk over to the dojo together after the movie and you can pick your children up by 5:15pm.
+
+Hope to see you there!
