@@ -27,6 +27,10 @@
 		box-shadow: 0.125rem 0.25rem 1rem rgba($black, 0.5);
 		border: 0.25rem solid $red;
 	}
+	.event-image-enlarge-caption {
+		text-align: center;
+		color: rgba($white, 0.5);
+	}
 }
 .post-image-wrap {
 	padding-bottom: 1rem;
@@ -67,8 +71,14 @@
 	.post-full-page-image-wrap, .post-image-wrap {
 		.post-image {
 			position: absolute;
+			top: 3rem;
+			right: 1rem;
+		}
+		.event-image-enlarge-caption {
+			position: absolute;
 			top: 1rem;
 			right: 1rem;
+			width: 10rem
 		}
 	}
 	.post-content-header {

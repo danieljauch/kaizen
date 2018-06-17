@@ -62,5 +62,5 @@ google_analytics_tracking_id: "UA-102590261-1"
 exclude: ["vendor","node_modules","package.json","Gemfile","gulpfile.js","*.scss"]
 
 #SEO Plugin
-plugins:
+plugins_dir:
   - jekyll-seo-tag

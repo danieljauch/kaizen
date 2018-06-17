@@ -17,6 +17,9 @@ $(document).ready(function() {
 	$(".image-list a").colorbox({
 		maxWidth: "100%"
 	})
+	$(".event-image-enlarge").colorbox({
+		maxWidth: "100%"
+	})
 	$(".mobile-menu-toggle").click(function() {
 		console.log("Ding!")
 
