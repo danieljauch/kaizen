@@ -4,6 +4,7 @@ layout: page
 
 <section class="login-area">{% include login.html %}</section>
 <div class="hide-not-logged-in">
+  <a class="btn member-manage-btn" href="https://kaizeninternational.zenplanner.com/login.cfm" target="_blank">Manage Your Account</a>
   <section class="staff page-content-area">{{ content }}</section>
   <section class="staff page-content-area">
     {% assign memberbox = site.memberboxes | sort: 'order' %}
