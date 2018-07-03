@@ -10,7 +10,7 @@ order: 1
 * [10 Attributes of a Successful Kenpoist](/assets/pdf/Student-Docs/10 attributes of a successful Kenpoist.pdf)
 * [New Student Guide](/assets/pdf/Student-Docs/New Student Guide.pdf)
 * [Notebook Cover Page](/assets/pdf/Student-Docs/Notebook cover page.pdf)
-* [3 Acts of Gatitude](/assets/pdf/Student-Docs/gratitude-three acts of kindness.pdf)
+* [3 Acts of Gratitude](/assets/pdf/Student-Docs/gratitude-three acts of kindness.pdf)
 * [Patch Guide](/assets/pdf/Student-Docs/patch guide.PDF)
 * [Adults & Youth Belt Guide](/assets/images/2b Adult &amp; Youth Belts.png)
 * [Tigers Belt Guide](/assets/images/2a Tiger Belts.png)
