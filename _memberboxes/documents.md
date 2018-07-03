@@ -12,5 +12,5 @@ order: 1
 * [Notebook Cover Page](/assets/pdf/Student-Docs/Notebook cover page.pdf)
 * [3 Acts of Grattitude](/assets/pdf/Student-Docs/gratitude-three acts of kindness.pdf)
 * [Patch Guide](/assets/pdf/Student-Docs/patch guide.PDF)
-* Adults Belt Guide
-* Tigers Belt Guide
+* [Adults & Youth Belt Guide](/assets/images/2b Adult &amp; Youth Belts.png)
+* [Tigers Belt Guide](/assets/images/2a Tiger Belts.png)
