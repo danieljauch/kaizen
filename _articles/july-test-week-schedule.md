@@ -8,11 +8,11 @@ description: >-
   skill on your testing and we'll see you back on regular schedule Saturday, the
   21st.
 tags:
-image_path:
+image_path: /uploads/july-test-week-schedule-pic.PNG
 permalink: /events/July-testschedule/
 published: true
 event_date: 2018-07-20 00:00:00 -0600
 show_date: false
 ---
 
-Belt testing week is July 16-20...no regular Kenpo classes! Please see the schedule or the calendar for details on available classes during the week. Regular schedule resumes Saturday, July 21st.&nbsp;
+Belt testing week is July 16-20…no regular Kenpo classes! Please see the schedule or the calendar for details on available classes during the week. Regular schedule resumes Saturday, July 21st.
